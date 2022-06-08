@@ -1,0 +1,103 @@
+.district-body {
+    text-align: center;
+    /*background-size: cover;*/
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* transition: 5s ease-in-out; */
+    background-size: 100%;
+    object-fit: cover;
+    background-image: 100%;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Assets/Images/pic1.avif');
+
+    
+}
+
+.picture-column{
+    height: 300px;
+    width: 550px;
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1502394202744-021cfbb17454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateX(0.50em);
+}
+.district-header {
+        margin: 0 auto;
+        color: white;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        transform: translateY(-0.50em);
+        display: inline-block;
+}
+.district1-container {
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 70%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100px);
+    
+}
+.second-header {
+    transform : translateY(-150px);
+}
+.ui  left aligned segment {
+    color: white;
+
+}
+.info-section {
+    transform: translateY(-100px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.info-section1 {
+    transform: translateY(-100px);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.ui.black.left.aligned.inverted.segment {
+    border-radius: 100%;
+    width: 35%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.viewMore-btn {
+    background: none;
+    background-color: #eee3e5;
+    color: #ff4d6d;
+    border: 2px solid #ffccd5;
+    padding: 0.5em 1em;
+    transition: all 0.25s;
+    width: 10em;
+
+    border-radius: 5px;
+
+}
+.viewMore-btn:hover {
+    background-color: #ff8fa3;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.50em);
+    cursor: pointer;
+}  
+.btn-div {
+    transform: translateY(-50px);
+} 
