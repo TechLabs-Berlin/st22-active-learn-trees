@@ -101,3 +101,131 @@
 .btn-div {
     transform: translateY(-50px);
 } 
+@media (max-width: 768px) {
+    .district-header, .main-header, .second-header {
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        /* transform: translateY(-0.5em); */
+        display: inline-block;
+    }
+    .picture-column {
+      width: 80%;
+      height: 250px;
+      font-size: 1em;
+     justify-content: center;
+     align-items: center;
+    }
+    
+}
+@media (max-width: 768px) {
+    .district1-container {
+        width: 400px;
+        height: 500px;
+    }
+    .district-body {
+        text-align: center;
+        background-size: cover;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;    
+    }
+}
+@media (max-width: 768px) {
+    .district-header, .main-header {
+        transform: translateY(15px);
+    }
+}
+
+@media (max-width: 768px) {
+    .ui.black.left.aligned.inverted.segment {
+        border-radius: 100%;
+        width: 35%;
+        font-size: 0.8em;
+        z-index: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .menu,a {
+        font-size: 1.2em;
+    }
+} 
+@media (max-width: 768px) {
+    .menu {
+        background: inherit;
+        flex-direction: column;
+    }
+}  
+@media (max-width: 768px) {
+    .ui.inveted.menu {
+      background: inherit;
+    }
+} 
+/* 576px--------------------------------------------------------------------------------------------------- */
+@media (max-width: 576px) {
+    .district-header, .main-header, .second-header {
+        font-size: 1.5em;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        /* transform: translateY(-0.5em); */
+        display: inline-block;
+    }
+    .picture-column {
+      width: 60%;
+      height: 150px;
+      font-size: 1em;
+     justify-content: center;
+     align-items: center;
+    }
+    
+}
+@media (max-width: 576px) {
+    .district1-container {
+        width: 300px;
+        height: 400px;
+    }
+    .district-body {
+        text-align: center;
+        background-size: cover;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;    
+    }
+}
+/* @media (max-width: 576px) {
+    .district-header, .main-header {
+        transform: translateY(px);
+    }
+} */
+
+@media (max-width: 576px) {
+    .ui.black.left.aligned.inverted.segment {
+        border-radius: 100%;
+        width: 35%;
+        font-size: 0.7em;
+        z-index: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .menu,a {
+        font-size: 1.2em;
+    }
+} 
+@media (max-width: 576px) {
+    .menu {
+        background: inherit;
+        flex-direction: column;
+    }
+}  
+@media (max-width: 576px) {
+    .ui.inveted.menu {
+      background: inherit;
+    }
+} 
+@media (max-width: 576px) {
+    h2{
+      font-size: 1.5em;
+    }
+} 
