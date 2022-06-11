@@ -15,7 +15,9 @@
 
     
 }
-
+.navbar{
+    padding: 0;
+}
 .picture-column{
     height: 300px;
     width: 550px;

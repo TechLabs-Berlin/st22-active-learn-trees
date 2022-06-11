@@ -15,6 +15,9 @@ section {
     display: inline-block;
     
   }
+  .h1{
+    color: white;
+  }
   h2{
     text-align: center;
     font-family: 'Marck Script', cursive;
