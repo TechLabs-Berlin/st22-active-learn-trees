@@ -26,40 +26,40 @@ const District = () => {
           
         <div className="ui two column stackable grid container">
           <div className="column">           
-            <Link to = '/district1'><div className="first">District 1</div></Link>
+            <Link to = '/district1'><div className="first">Mitte</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district2'><div className="second">District 2</div></Link>
+            <Link to = '/district2'><div className="second">Pankow</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district3'><div className="third">District 3</div></Link>
+            <Link to = '/district3'><div className="third">Charlottenburg</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district4'><div className="fourth">District 4</div></Link>
+            <Link to = '/district4'><div className="fourth">Friedrichshain-Kreuzberg</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district5'><div className="fifth">District 5</div></Link>
+            <Link to = '/district5'><div className="fifth">Spandau</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district6'><div className="sixth">District 6</div></Link>
+            <Link to = '/district6'><div className="sixth">Reinickendorf</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district7'><div className="seventh">District 7</div></Link>
+            <Link to = '/district7'><div className="seventh">Lichtenberg</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district8'><div className="eighth">District 8</div></Link>
+            <Link to = '/district8'><div className="eighth">Marzahn-Hellersdorf</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district9'><div className="ninth">District 9</div></Link>
+            <Link to = '/district9'><div className="ninth">Treptow-Köpenick</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district10'><div className="tenth">District 10</div></Link>
+            <Link to = '/district10'><div className="tenth">Neukölln</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district11'><div className="eleventh">District 11</div></Link>
+            <Link to = '/district11'><div className="eleventh">Tempelhof-Schöneberg</div></Link>
           </div>
           <div className="column">
-            <Link to = '/district12'><div className="twelvth">District 12</div></Link>
+            <Link to = '/district12'><div className="twelvth">Steglitz-Zehlendorf</div></Link>
           </div>
         </div>
     </section>

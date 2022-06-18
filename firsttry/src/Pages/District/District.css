@@ -17,6 +17,7 @@ section {
   }
   .h1{
     color: white;
+    font-size: 3.5em;
   }
   h2{
     text-align: center;
@@ -41,12 +42,11 @@ section {
   }
   .column {
       margin-top: 30px;
-      font-size: 2em;
+      font-size: 1.7em;
   }
   .first {
     height: 400px;
     width: 550px;
-    background-color: black;
     color: white;
     background-image: url('https://images.unsplash.com/photo-1519567770579-c2fc5436bcf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
