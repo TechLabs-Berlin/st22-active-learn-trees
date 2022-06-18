@@ -33,7 +33,10 @@ const Home = () => {
                     </p>
                   </div>
                   
-                      <button className="home-button"><Link to = '/district'> Get Started</Link></button>
+                  <div className="Two-Buttons">
+                      <button className="home-button"><Link to = '/district'> Districts</Link></button>
+                      <button className="home-button1"><Link to = '/uploadImage'> UploadImage</Link></button>
+                    </div>
                  
                   
                 </div>

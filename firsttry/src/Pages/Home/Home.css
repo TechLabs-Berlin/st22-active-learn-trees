@@ -50,10 +50,31 @@
     width: 10em;
     margin-top: 5em;
     border-radius: 5px;
+    
 
 }
 
 .home-button:hover {
+    background-color: #ff8fa3;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.50em);
+    cursor: pointer;
+}
+.home-button1 {
+    background: none;
+    background-color: #eee3e5;
+    color: #ff4d6d;
+    border: 2px solid #ffccd5;
+    padding: 0.5em 1em;
+    transition: all 0.25s;
+    width: 10em;
+    margin-top: 5em;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.home-button1:hover {
     background-color: #ff8fa3;
     color: white;
     box-shadow: 0 0.5em 0.5em -0.4em;
