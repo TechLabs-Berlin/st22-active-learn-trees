@@ -26,4 +26,8 @@
     font-size: 1em;
 }
 }  
+.navbar>.container-fluid{
+    padding-right: 0;
+}
+
 

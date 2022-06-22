@@ -9,7 +9,8 @@
     object-fit: cover;
     background-image: 100%;
     background-image: url('../../Assets/Images/pic1.avif'); 
-    
+    height: 100%;
+    width: 100%;
 }
 
 .main-header {
@@ -21,12 +22,15 @@
     display: inline-block;
     
 }
-.second-header {
+.home-second-header {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
     color: white;
-        box-shadow: 0 0.5em 0.5em -0.4em;
-        transform: translateY(20px);
-        display: inline-block;
-
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform : translateY(-150px);
+    display: inline-block;
+ 
 }
 
 .container1 {
@@ -50,8 +54,6 @@
     width: 10em;
     margin-top: 5em;
     border-radius: 5px;
-    
-
 }
 
 .home-button:hover {
@@ -86,4 +88,65 @@
     font-family: 'Marck Script', cursive;
     font-size: 1.5em;
     transform: translateY(-2.50em);
+}
+
+
+/* -------------------MEDIA QUERIESS 576px------------------------ */
+@media (max-width: 768px) {
+    .page-body {
+        text-align: center;
+        background-size: cover;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;    
+    }
+    .main-header {
+        font-size: 2.2em;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        /* transform: translateY(-0.5em); */
+        display: inline-block;
+    }
+    .home-second-header{
+        font-size: 1.7em;
+        transform: translateY(-30px);
+    }
+    .para {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+    .Two-Buttons{
+        display: flex;
+    }
+}
+
+/* -------------------MEDIA QUERIESS 576px------------------------ */
+
+@media (max-width: 576px) {
+    .page-body {
+        text-align: center;
+        background-size: cover;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;    
+    }
+    .main-header {
+        font-size: 2.2em;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        /* transform: translateY(-0.5em); */
+        display: inline-block;
+    }
+    .home-second-header{
+        font-size: 1.5em;
+        transform: translateY(-20px);
+    }
+    .para {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1em;
+    }
 }

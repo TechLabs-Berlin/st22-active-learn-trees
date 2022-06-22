@@ -22,7 +22,7 @@ const District = () => {
           <Navbar />
           <h1 className="h1">Active-Learn-Trees</h1>
           <br />
-          <h2>Select District</h2>
+          <h2 className="select-district-h2">Select District</h2>
           
         <div className="ui two column stackable grid container">
           <div className="column">           

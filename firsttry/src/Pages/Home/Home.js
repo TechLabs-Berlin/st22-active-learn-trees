@@ -23,7 +23,7 @@ const Home = () => {
               <h1 className="main-header">Active_Learn_Trees</h1>
             
                 <div className="container1">
-                  <h2 className="second-header">About</h2>
+                  <h2 className="home-second-header">About</h2>
                   <div>
                     <p className="para">
                      It is an application that allows you to identify Leaves simply by uploaading pictures with your smartphone or Laptop.
