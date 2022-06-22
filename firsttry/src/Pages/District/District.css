@@ -199,15 +199,15 @@ section {
   
   
   
-  .menu {
+  /* .menu {
     display: flex;
     align-items: flex-end;
     justify-content: end;
-  }
+  } */
   a {
     box-shadow: 0 0.5em 0.5em -0.4em;
     font-family: 'Marck Script', cursive;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
   }
 
 

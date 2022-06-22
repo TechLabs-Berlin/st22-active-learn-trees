@@ -148,7 +148,7 @@
         z-index: 50%;
     }
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .menu,a {
         font-size: 1.2em;
     }
@@ -163,7 +163,7 @@
     .ui.inveted.menu {
       background: inherit;
     }
-} 
+}  */
 /* 576px--------------------------------------------------------------------------------------------------- */
 @media (max-width: 576px) {
     .district-header, .main-header, .second-header {
@@ -210,7 +210,7 @@
         z-index: 50%;
     }
 }
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .menu,a {
         font-size: 1.2em;
     }
@@ -225,7 +225,7 @@
     .ui.inveted.menu {
       background: inherit;
     }
-} 
+}  */
 @media (max-width: 576px) {
     h2{
       font-size: 1.5em;
