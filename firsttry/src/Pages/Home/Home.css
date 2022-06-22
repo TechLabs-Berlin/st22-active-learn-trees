@@ -1,0 +1,68 @@
+.page-body {
+    text-align: center;
+    /*background-size: cover;*/
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* transition: 5s ease-in-out; */
+    background-size: 100%;
+    object-fit: cover;
+    background-image: 100%;
+    background-image: url('../../Assets/Images/pic1.avif'); 
+    
+}
+
+.main-header {
+    margin: 0 auto;
+    margin-top: 2em;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-1.50em);
+    display: inline-block;
+    
+}
+.second-header {
+    color: white;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        transform: translateY(20px);
+        display: inline-block;
+
+}
+
+.container1 {
+    width: 50%;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 70%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home-button {
+    background: none;
+    background-color: #eee3e5;
+    color: #ff4d6d;
+    border: 2px solid #ffccd5;
+    padding: 0.5em 1em;
+    transition: all 0.25s;
+    width: 10em;
+    margin-top: 5em;
+    border-radius: 5px;
+
+}
+
+.home-button:hover {
+    background-color: #ff8fa3;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.50em);
+    cursor: pointer;
+}
+.para {
+    color: white;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5em;
+    transform: translateY(-2.50em);
+}
