@@ -17,7 +17,7 @@ const Navbar = () => {
                     <div className="navbar">
                       <div className="ui inverted menu">
                         <li>
-                          <Link to = '/'>
+                          <Link to = '/home'>
                             <a className="item">Home</a>
                           </Link>
                         </li>

@@ -83,12 +83,31 @@
     transform: translateY(-0.50em);
     cursor: pointer;
 }
+.Two-Buttons{
+    display: flex;
+}
 .para {
     color: white;
     font-family: 'Marck Script', cursive;
     font-size: 1.5em;
     transform: translateY(-2.50em);
 }
+.home-page-para1{
+    color: white;
+    margin: 20px;
+}
+.home-page-para2{
+    color: white;
+    margin: 20px;
+}
+.para-with-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 
 
 /* -------------------MEDIA QUERIESS 576px------------------------ */

@@ -36,9 +36,15 @@ const Home = () => {
                   </div>
                   
                   <div className="Two-Buttons">
-                      <button className="home-button"><Link to = '/district'> Districts</Link></button>
+                    <div className="para-with-button">
+                        <p className="home-page-para1">Explore Trees with in all districts of berlin</p>
+                        <button className="home-button"><Link to = '/district'> Districts</Link></button>
+                    </div>
+                    <div className="para-with-button">
+                      <p className="home-page-para2">Curious? Upload a picture for quick identification</p>
                       <button className="home-button1"><Link to = '/uploadImage'> UploadImage</Link></button>
                     </div>
+                  </div>
                  
                   
                 </div>

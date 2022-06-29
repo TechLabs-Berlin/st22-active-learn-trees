@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 import District from "./Pages/District/District";
 import Home from "./Pages/Home/Home";
+import GetStartedPage from "./Pages/GetStartedPage/GetStartedPage";
 import District1 from "./Pages/District1/District1";
 import District2 from "./Pages/District2/District2";
 import District3 from "./Pages/District3/District3";
@@ -22,7 +23,8 @@ const App = () => {
   return(
     <Router>
       <Routes>
-        <Route exact path="/" element = {<Home/>} />
+        <Route exact path="/" element = {<GetStartedPage/>} />
+        <Route exact path="/home" element = {<Home/>} />
         <Route exact path="/district" element = {<District/>} />
         <Route exact path="/district1" element = {<District1/>} />
         <Route exact path="/district2" element = {<District2/>} />
