@@ -1,8 +1,9 @@
 
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 import District from "./Pages/District/District";
 import Home from "./Pages/Home/Home";
+import GetStartedPage from "./Pages/GetStartedPage/GetStartedPage";
 import District1 from "./Pages/District1/District1";
 import District2 from "./Pages/District2/District2";
 import District3 from "./Pages/District3/District3";
@@ -16,18 +17,14 @@ import District10 from "./Pages/District10/District10";
 import District11 from "./Pages/District11/District11";
 import District12 from "./Pages/District12/District12";
 import UploadImage from "./Pages/UploadImage/UploadImage";
-import Navbar from "./Components/Navbar"
-import mediaQuery from "./mediaQuery";
 
 
 const App = () => {
-
   return(
-    
     <Router>
-      
       <Routes>
-        <Route exact path="/" element = {<Home/>} />
+        <Route exact path="/" element = {<GetStartedPage/>} />
+        <Route exact path="/home" element = {<Home/>} />
         <Route exact path="/district" element = {<District/>} />
         <Route exact path="/district1" element = {<District1/>} />
         <Route exact path="/district2" element = {<District2/>} />
@@ -43,9 +40,7 @@ const App = () => {
         <Route exact path="/district12" element = {<District12/>} />
         <Route exact path="/uploadImage" element = {<UploadImage/>} />
       </Routes>
-     
     </Router>
-    
   );
 };
 

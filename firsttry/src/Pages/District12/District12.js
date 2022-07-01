@@ -12,7 +12,7 @@ return(
  
       <div className="district1-container">
             <div class="picture-column">
-                <h1 className="main-header">District 12</h1>
+                <h1 className="main-header">Steglitz-Zehlendorf</h1>
             </div>
       </div>
       <h1 className="second-header">Information</h1>

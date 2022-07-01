@@ -23,17 +23,28 @@ const Home = () => {
               <h1 className="main-header">Active_Learn_Trees</h1>
             
                 <div className="container1">
-                  <h2 className="second-header">About</h2>
+                  <h2 className="home-second-header">About</h2>
                   <div>
                     <p className="para">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-                      quas quasi laboriosam voluptatem aliquam commodi est eos omnis odit
-                      quidem magni dolor provident corporis. Saepe libero beatae harum
-                      architecto reprehenderit.
+                     It is an application that allows you to identify Leaves simply by uploaading pictures with your smartphone or Laptop.
+                     It has the ability to filter recognized species by family. 
+                     The more visually clear picture you upload about the leave you are observing, 
+                     the more accurate the identification will be. There are indeed many plants that look alike from 
+                     afar and it is sometimes small details that distinguish two species of the same genus.
+                     It allows you to gain more information about Trees with respect to the selected district.
                     </p>
                   </div>
                   
-                      <button className="home-button"><Link to = '/district'> Get Started</Link></button>
+                  <div className="Two-Buttons">
+                    <div className="para-with-button">
+                        <p className="home-page-para1">Explore Trees with in all districts of berlin</p>
+                        <button className="home-button"><Link to = '/district'> Districts</Link></button>
+                    </div>
+                    <div className="para-with-button">
+                      <p className="home-page-para2">Curious? Upload a picture for quick identification</p>
+                      <button className="home-button1"><Link to = '/uploadImage'> UploadImage</Link></button>
+                    </div>
+                  </div>
                  
                   
                 </div>
