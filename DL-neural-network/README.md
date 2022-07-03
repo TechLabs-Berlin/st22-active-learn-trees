@@ -15,6 +15,7 @@ berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','
 --> output file/google colab with text, code, results and conclusion
 #### Step 2: Inital setup of a softwarepipeline for deployment of a model that can be used in a browser
 --> Integration into Web application on Trees website
+
 Check out the very simple leave classifying model hosted on netlify:
 https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html
 
