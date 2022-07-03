@@ -13,8 +13,10 @@ berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','
 - Plantnet
 - Bing image download
 --> output file/google colab with text, code, results and conclusion
-#### Step 2: Inital setup of a softwarepipeline, deployment of a model that can be used in a browser
+#### Step 2: Inital setup of a softwarepipeline for deployment of a model that can be used in a browser
 --> Integration into Web application on Trees website
+Check out the very simple leave classifying model hosted on netlify:
+https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html
 
 ## Part B) Refinement: Defining a proper set up for improvement of our image dataset and image classificaiton model
 ### Step 3: Creation of image dataset by downloading images from Bing and manually sort/labeling
