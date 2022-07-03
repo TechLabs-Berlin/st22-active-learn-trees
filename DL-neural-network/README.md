@@ -16,8 +16,13 @@ berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','
 #### Step 2: Inital setup of a softwarepipeline for deployment of a model that can be used in a browser
 --> Integration into Web application on Trees website
 
+
+Model can be found here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json
+Classifier can be foudn here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json
 Check out the very simple leave classifying model hosted on netlify:
 https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html
+
+Now integrated by the WD team with React.
 
 ## Part B) Refinement: Defining a proper set up for improvement of our image dataset and image classificaiton model
 ### Step 3: Creation of image dataset by downloading images from Bing and manually sort/labeling
