@@ -1,0 +1,37 @@
+.bg-light{
+
+    --bs-bg-opacity: 0;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+.item{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+
+@media (max-width: 992px) {
+ .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .ui.inverted.menu{
+    background: inherit;
+    
+  }
+  .item{
+    font-size: 1em;
+    color: white;
+}
+}  
+.navbar>.container-fluid{
+    padding-right: 0;
+}
+
+
