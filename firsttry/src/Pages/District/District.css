@@ -1,60 +1,56 @@
 section {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-    background-color: black;
-  }
-  h1{
-    padding-top: -10px;
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-    font-size: 3.5em;
-    color: white;
-    box-shadow: 0 0.5em 0.5em -0.4em;
-    display: inline-block;
-    
-  }
-  .h1{
-    color: white;
-    font-size: 3.5em;
-  }
-  .select-district-h2{
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-    font-size: 2.5em;
-    color: white;
-    box-shadow: 0 0.5em 0.5em -0.4em;
-    display: inline-block;
-  }
-  
-  .firstinput {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: -50px;
-  }
-  .column {
-      margin-top: 30px;
-      font-size: 1.7em;
-      font-weight: bold;
-      font-family: 'Open Sans', sans-serif;
-  }
-  .first {
-    font-weight: bold;
-    height: 400px;
-    width: 550px;
-    color: white;
-    background-image: url('../../Assets/Images/Mitte/Mitte1.png');
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0.5em 0.5em -0.4em;
-    transform: translateX(-0.50em);
-    font-family: 'Open Sans', sans-serif;
-  }
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Marck Script', cursive;
+  background-color: #f0efeb;
+}
+h1{
+  padding-top: -10px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5em;
+  color:  black;
+  /* box-shadow: 0 0.5em 0.5em -0.4em; */
+  display: inline-block;
+  font-weight: bold;
+}
+.h1{
+  font-weight: bold;
+}
+.select-district-h2{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+  color:  black;
+  /* box-shadow: 0 0.5em 0.5em -0.4em; */
+  display: inline-block;
+}
+.firstinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: -50px;
+}
+.column {
+  margin-top: 30px;
+  font-size: 1.7em;
+}
+.first {
+  font-weight: bold;
+  height: 400px;
+  width: 550px;
+  color: white;
+  background-image: url('../../Assets/Images/Mitte/Mitte1.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateX(-0.50em);
+  font-family: 'Open Sans', sans-serif;
+}
   .second {
     height: 400px;
     width: 550px;
@@ -203,9 +199,12 @@ section {
     justify-content: end;
   } */
   a {
-    /* box-shadow: 0 0.5em 0.5em -0.4em; */
     font-family: 'Open Sans', sans-serif;
-    /* font-size: 1.3em; */
+    color: #f0efeb;
+    font-size: 1.3em; 
+  }
+  a:hover {
+    color: #f0efeb;
   }
 
 

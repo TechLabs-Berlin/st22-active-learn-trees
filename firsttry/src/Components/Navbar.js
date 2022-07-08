@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
         <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
+      <a className="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,19 +16,19 @@ const Navbar = () => {
                   <div className='menu'>
                     <div className="navbar">
                       <div className="ui inverted menu">
-                        <li>
+                        <li className="li-hover">
                           <Link to = '/home'>
                             <a className="item">Home</a>
                           </Link>
-                        </li>
-                        <li>
+                        </li >
+                        <li className="li-hover">
                           <Link to = '/district'>
-                            <a className="item">Districts</a>
+                            <a className="item">Back</a>
                           </Link>
                         </li>
-                        <li>
+                        <li className="li-hover">
                         <Link to = '/uploadImage'>
-                          <a className="item"> Upload Image </a>
+                          <a className="item">About </a>
                         </Link>
                         </li>
                       </div>
