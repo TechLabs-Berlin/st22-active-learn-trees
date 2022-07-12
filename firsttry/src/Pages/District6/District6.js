@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
 import { Link } from "react-router-dom";
+import AppLogo from "../../Components/AppLogo/AppLogo";
+import District6Carousel from "./District6Carousel";
 
 
 const District6 = () => {
@@ -8,11 +10,11 @@ return(
     <>
     <div className="district-body">
       <Navbar />
-      <h1 className="district-header">Active_Learn_Trees</h1>
+      <AppLogo />
  
       <div className="district1-container">
             <div class="picture-column">
-                <h1 className="main-header">Reinickendorf</h1>
+             <District6Carousel />
             </div>
       </div>
       <h1 className="second-header">Information</h1>

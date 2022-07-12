@@ -8,10 +8,9 @@
     background-size: 100%;
     object-fit: cover;
     background-image: 100%;
-    background-color: black;
+    background-color: #f0efeb;
     height: 100%;
     width: 100%;
-    background-image: url('../../Assets/Images/pic1.avif');
 
     
 }
@@ -19,16 +18,25 @@
     padding: 0;
 }
 .picture-column{
-    height: 300px;
+     /* height: 300px;
     width: 550px;
-    color: white;
-    background-image: url('https://images.unsplash.com/photo-1502394202744-021cfbb17454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    color: white;  */
+    /* background-image: url('https://images.unsplash.com/photo-1502394202744-021cfbb17454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); */
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0.5em 0.5em -0.4em;
     transform: translateX(0.50em);
+}
+.img-fluid-District1pic{
+    width: 13em;
+    height: 15em;
+    margin-top: -40px;
+}
+.d-block{
+    height: 300px;
+    width: 700px;
 }
 .district-header {
         margin: 0 auto;
@@ -38,10 +46,9 @@
         display: inline-block;
 }
 .district1-container {
-    width: 500px;
+    width: 450px;
     height: 550px;
     margin: 0 auto;
-    border-radius: 70%;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -119,6 +126,10 @@
      justify-content: center;
      align-items: center;
     }
+    .d-block{
+        height: 250px;
+        width: 100%;
+    }
     
 }
 @media (max-width: 768px) {
@@ -181,6 +192,10 @@
      justify-content: center;
      align-items: center;
     }
+    .d-block{
+        height: 150px;
+        width: 100%;
+    }
     
 }
 @media (max-width: 576px) {
@@ -230,4 +245,4 @@
     h2{
       font-size: 1.5em;
     }
-} 
+}  

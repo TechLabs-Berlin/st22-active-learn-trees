@@ -1,20 +1,21 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
+import AppLogo from "../../Components/AppLogo/AppLogo";
 import { Link } from "react-router-dom";
-
+import District3Carousel from "./District3Carousel";
 
 const District3 = () => {
 return( 
     <>
     <div className="district-body">
       <Navbar />
-      <h1 className="district-header">Active_Learn_Trees</h1>
- 
-      <div className="district1-container">
-            <div class="picture-column">
-                <h1 className="main-header">Charlottenburg</h1>
-            </div>
-      </div>
+      <AppLogo />
+
+                <div className="district1-container">
+                    <div class="picture-column">
+                    <District3Carousel />
+                </div>
+        </div>
       <h1 className="second-header">Information</h1>
 
 

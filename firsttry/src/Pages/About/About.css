@@ -1,0 +1,30 @@
+.container-about {
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translateY(-50px);
+}
+
+.img-fluid-aboutpic{
+    width: 13em;
+    height: 15em;
+    margin-top: -40px;
+}
+hr{
+    transform: translateY(-50px);
+}
+.navbar-brand{
+    display: flex;
+    padding-top: 40px;
+    transform: translateY(40px);
+    transform: translateX(40px);
+    font-family : sans-serif;
+    color: black;
+}
+.about-page-back :hover{
+    color: #568f0f;
+}

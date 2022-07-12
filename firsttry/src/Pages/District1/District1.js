@@ -1,18 +1,23 @@
 import React from "react";
-import Navbar from "../../Components/Navbar";
 import { Link } from "react-router-dom";
 import './District1.css';
+import Navbar from "../../Components/Navbar";
+import AppLogo from "../../Components/AppLogo/AppLogo";
+import District1Carousel from "./District1Carousel";
+
 
 const District1 = () => {
 return( 
     <>
     <div className="district-body">
       <Navbar />
-      <h1 className="district-header">Active_Learn_Trees</h1>
+      <AppLogo />
+      {/* <h1 className="district-header">Active_Learn_Trees</h1> */}
  
       <div className="district1-container">
             <div class="picture-column">
-                <h1 className="district-main-header">Mitte</h1>
+                 {/* <h1 className="district-main-header">Mitte</h1>  */}
+                 <District1Carousel />
             </div>
       </div>
       <h1 className="second-header">Information</h1>
