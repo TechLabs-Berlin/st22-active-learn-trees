@@ -1,0 +1,57 @@
+.navbar-brand{
+    color: #f0efeb;
+    font-size: 2.5em; 
+}
+
+.bg-dark{
+
+    --bs-bg-opacity: 0;
+}
+  .ui.menu:not(.vertical) .item{
+    background-color: #f0efeb;
+} 
+.ui.inverted.menu .item{
+    color: #070707;
+    font-weight: 500px;
+} 
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+.item{
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    font-family: open sans, sans-serif;
+    color: #f0efeb;
+    font-size: 1.3em;
+}
+.li-hover:hover {
+    background-color: #f0efeb;
+}
+
+.navbar-toggler{
+    color: #f0efeb ;
+}
+button.navbar-toggler{
+    background-color: #f0efeb;
+}
+
+
+@media (max-width: 992px) {
+ .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .ui.inverted.menu{
+    background:inherit;
+  }
+  .item{
+    font-size: 1em;
+}
+}  
+.navbar>.container-fluid{
+    padding-right: 0;
+}
+
+
