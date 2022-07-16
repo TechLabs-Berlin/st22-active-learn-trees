@@ -18,16 +18,30 @@ import District10 from "./Pages/District10/District10";
 import District11 from "./Pages/District11/District11";
 import District12 from "./Pages/District12/District12";
 import UploadImage from "./Pages/UploadImage/UploadImage";
-import ExploreTrees from "./Pages/ExploreTrees/ExploreTrees";
-import Acer from "./Pages/Acer/Acer";
-import Aesculus from "./Pages/Aesculus/Aesculus";
-import Amelanchier from "./Pages/Amelanchier/Amelanchier";
-import Alnus from "./Pages/Alnus/Alnus";
-import Betula from "./Pages/Betula/Betula";
-import Carpinus from "./Pages/Carpinus/Carpinus";
-import Corylus from "./Pages/Corylus/Corylus";
-import Crataegus from "./Pages/Crataegus/Crataegus";
-
+import ExploreTreesWithinMitte from "./Pages/ExploreTreesWithinMitte/ExploreTreesWithinMitte";
+import ExploreTreesWithinPankow from "./Pages/ExploreTreesWithinPankow/ExploreTreesWithinPankow";
+import ExploreTreesWithinCharlottenburg from "./Pages/ExploreTreesWithinCharlottenburg/ExploreTreesWithinCharlottenburg";
+import ExploreTreesWithinFriedrichshain from "./Pages/ExploreTreesWithinFriedrichshain/ExploreTreesWithinFriedrichshain";
+import ExploreTreesWithinReinickendorf from "./Pages/ExploreTreesWithinReinickendorf/ExploreTreesWithinReinickendorf";
+import ExploreTreesWithinLichtenberg from "./Pages/ExploreTreesWithinLichtenberg/ExploreTreesWithinLichtenberg";
+import ExploreTreesWithinMarzahn from "./Pages/ExploreTreesWithinMarzahn/ExploreTreesWithinMarzahn";
+import ExploreTreesWithinNeukölln from "./Pages/ExploreTreesWithinNeukölln/ExploreTreesWithinNeukölln";
+import ExploreTreesWithinSpandau from "./Pages/ExploreTreesWithinSpandau/ExploreTreesWithinSpandau";
+import ExploreTreesWithinSteglitz from "./Pages/ExploreTreesWithinSteglitz/ExploreTreesWithinSteglitz";
+import ExploreTreesWithinTempelhof from "./Pages/ExploreTreesWithinTempelhof/ExploreTreeWithinTempelhof";
+import ExploreTreesWithinTreptow from "./Pages/ExploreTreesWithinTreptow/ExploreTreesWithinTreptow";
+import WinterLinde from "./Pages/WinterLinde/WinterLinde";
+import SpitzAhorn from "./Pages/SpitzAhorn/SpitzAhorn";
+import AhornblattrigePlatane from "./Pages/AhornblattrigePlatane/AhornblattrigePlatane";
+import HollandischeLinde from "./Pages/HollandischeLinde/HollandischeLinde";
+import GemeineRosskastanie from "./Pages/GemeineRosskastanie/GemeineRosskastanie";
+import BaumHasel from "./Pages/BaumHasel/BaumHasel";
+import BergAhornWeissAhorn from "./Pages/BergAhornWeissAhorn/BergAhornWeissAhorn";
+import SilberLinde from "./Pages/SilberLinde/SilberLinde";
+import SommerLinde from "./Pages/SommerLinde/SommerLinde";
+import KaiserLinde from "./Pages/KaiserLinde/KaiserLinde";
+import Linde from "./Pages/Linde/Linde";
+import KrimLinde from "./Pages/KrimLine/KrimLinde";
 
 const App = () => {
   return(
@@ -50,15 +64,30 @@ const App = () => {
         <Route exact path="/district11" element = {<District11/>} />
         <Route exact path="/district12" element = {<District12/>} />
         <Route exact path="/uploadImage" element = {<UploadImage/>} />
-        <Route exact path="/exploreTrees" element = {<ExploreTrees/>} />
-        <Route exact path="/acer" element = {<Acer/>} />
-        <Route exact path="/aesculus" element = {<Aesculus/>} />
-        <Route exact path="/amelanchier" element = {<Amelanchier/>} />
-        <Route exact path="/alnus" element = {<Alnus/>} />
-        <Route exact path="/betula" element = {<Betula/>} />
-        <Route exact path="/carpinus" element = {<Carpinus/>} />
-        <Route exact path="/corylus" element = {<Corylus/>} />
-        <Route exact path="/crataegus" element = {<Crataegus/>} />
+        <Route exact path="/exploreTreesWithinMitte" element = {<ExploreTreesWithinMitte/>} />
+        <Route exact path="/exploreTreesWithinPankow" element = {<ExploreTreesWithinPankow/>} />
+        <Route exact path="/exploreTreesWithinCharlottenburg" element = {<ExploreTreesWithinCharlottenburg/>} />
+        <Route exact path="/exploreTreesWithinFriedrichshain" element = {<ExploreTreesWithinFriedrichshain/>} />
+        <Route exact path="/exploreTreesWithinLichtenberg" element = {<ExploreTreesWithinLichtenberg/>} />
+        <Route exact path="/exploreTreesWithinMarzahn" element = {<ExploreTreesWithinMarzahn/>} />
+        <Route exact path="/exploreTreesWithinNeukölln" element = {<ExploreTreesWithinNeukölln/>} />
+        <Route exact path="/exploreTreesWithinReinickendorf" element = {<ExploreTreesWithinReinickendorf/>} />
+        <Route exact path="/exploreTreesWithinSpandau" element = {<ExploreTreesWithinSpandau/>} />
+        <Route exact path="/exploreTreesWithinSteglitz" element = {<ExploreTreesWithinSteglitz/>} />
+        <Route exact path="/exploreTreesWithinTempelhof" element = {<ExploreTreesWithinTempelhof/>} />
+        <Route exact path="/exploreTreesWithinTreptow" element = {<ExploreTreesWithinTreptow/>} />
+        <Route exact path="/winterLinde" element = {<WinterLinde/>} />
+        <Route exact path="/spitzAhorn" element = {<SpitzAhorn/>} />
+        <Route exact path="/ahornblattrigePlatane" element = {<AhornblattrigePlatane/>} />
+        <Route exact path="/hollandischeLinde" element = {<HollandischeLinde/>} />
+        <Route exact path="/GemeineRosskastanie" element = {<GemeineRosskastanie/>} />
+        <Route exact path="/baumHasel" element = {<BaumHasel/>} />
+        <Route exact path="/silberLinde" element = {<SilberLinde/>} />
+        <Route exact path="/bergAhornWeissAhorn" element = {<BergAhornWeissAhorn/>} />
+        <Route exact path="/SommerLinde" element = {<SommerLinde/>} />
+        <Route exact path="/KaiserLinde" element = {<KaiserLinde/>} />
+        <Route exact path="/Linde" element = {<Linde/>} />
+        <Route exact path="/krimLinde" element = {<KrimLinde/>} />
       </Routes>
     </Router>
   );

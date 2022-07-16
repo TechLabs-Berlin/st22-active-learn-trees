@@ -98,12 +98,20 @@
     border: 2px solid #d3d3d3;
     padding: 0.25em 1em;
     transition: all 0.25s;
-    width: 10em;
+    width: 30em;
     border-radius: 10px;
     box-shadow: 0 5px #d3d3d3;
 
     border-radius: 5px;
 
+}
+
+.externalLink {
+    background-color: white;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 20px;
 }
  
 .btn-div {

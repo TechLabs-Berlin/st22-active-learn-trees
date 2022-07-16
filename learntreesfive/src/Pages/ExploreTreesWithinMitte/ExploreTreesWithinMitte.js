@@ -1,9 +1,9 @@
 import {React, useStates } from 'react';
 import { Link } from "react-router-dom";
 import App_Logo from '../../Assets/Images/App_Logo.png';
-import './ExploreTrees.css';
+import './ExploreTreesWithinMitte.css';
 
-const ExploreTrees = () => {
+const ExploreTreesWithinMitte = () => {
   return (
       <>
         <div className="page-body">
@@ -31,26 +31,32 @@ const ExploreTrees = () => {
 
         </div>
         <div className="column1">
-          <Link to = '/acer'><div className="family">Acer</div></Link>
+          <Link to = '/WinterLinde'><div className="family">Winter Linde</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/Aesculus'><div className="family">Aesculus</div></Link>
+          <Link to = '/SpitzAhorn'><div className="family">Spitz Ahorn</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/amelanchier'><div className="family">Amelanchier</div></Link>
+          <Link to = '/AhornblattrigePlatane'><div className="family">Ahornblättrige Platane</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/alnus'><div className="family">Alnus</div></Link>
+          <Link to = '/HollandischeLinde'><div className="family">Holländische Linde</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/betula'><div className="family">Betula</div></Link>
+          <Link to = '/GemeineRosskastanie'><div className="family">Gemeine Rosskastanie</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/carpinus'><div className="family">Carpinus</div></Link>
+          <Link to = '/BaumHasel'><div className="family">Baum Hasel</div></Link>
           <div className="column1">
-          <Link to = '/corylus'><div className="family">Corylus</div></Link>
+          <Link to = '/SilberLinde'><div className="family">Silber Linde</div></Link>
           <div className="column1">
-          <Link to = '/crataegus'><div className="family">Crataegus</div></Link>
+          <Link to = '/BergAhornWeissAhorn'><div className="family">Berg Ahorn, Weiss-Ahorn</div></Link>
+        </div>
+        <div className="column1">
+          <Link to = '/SommerLinde'><div className="family">Sommer Linde</div></Link>
+        </div>
+        <div className="column1">
+          <Link to = '/kaiserLinde'><div className="family">Kaiser Linde</div></Link>
         </div>
         </div>
         </div>
@@ -58,4 +64,4 @@ const ExploreTrees = () => {
   );
 };
 
-export default ExploreTrees;
+export default ExploreTreesWithinMitte;

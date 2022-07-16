@@ -44,7 +44,7 @@ return(
         </div>
         
         <div className="btn-div">
-            <button className="exploreTrees-btn"><Link to = '/exploreTrees'> Explore trees</Link></button>
+            <button className="exploreTrees-btn"><Link to = '/exploreTreesWithinFriedrichshain'> Explore trees within Friedrichshain</Link></button>
         </div>
 
    </div>

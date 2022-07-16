@@ -47,9 +47,9 @@ const About = () => {
                         </p>
                    
                   
-                  <h2 className="para-vision-h2">Our Vision</h2>   
+                  <h2 className="para">Our Vision</h2>   
                 
-                <p className="para-vision">
+                <p className="para">
                     Our product aims to facilitate people in Berlin to gain more knowledge and information about the trees 
                     around them while demonstrating their importance as a public ammenity that benefits our environment in respect to Co2 absorption
                 </p>
