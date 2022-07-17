@@ -4,12 +4,12 @@
 ### Our Path: From idea to application
 
 Original idea: 
-The CO2 absorption of trees depends on their species, age and location.
-Learn about and predict the CO2 absorption of trees in Berlin
+- The CO2 absorption of trees depends on their species, age and location.
+- Learn about and predict the CO2 absorption of trees in Berlin
 
 Our application will allow the user
-to gain more information about trees in their selected district of Berlin.
-to identify trees simply by uploading pictures with their smartphone or Laptop.
+- to gain more information about trees in their selected district of Berlin.
+- to identify trees simply by uploading pictures with their smartphone or Laptop.
 
 Vision: Facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
 
