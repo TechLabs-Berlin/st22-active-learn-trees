@@ -9,10 +9,10 @@
 
 ## Repository structure
 
-- [UX materials and links](ux)
-- [WD files](node_app)
-- [DS scripts](python)
-- [AI scripts](python)
+- [UX materials and links]() (Add link)
+- [WD files]() (Add link)
+- [DS scripts]() (Add link)
+- [AI scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network)
 
 ## UX: Design files
 
