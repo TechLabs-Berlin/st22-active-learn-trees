@@ -38,7 +38,7 @@ Liaise with the WD track to determine the final design draft.
 
 (Add wireframe link)
 <p align="center">
-    <img alt="Early wireframes" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/ux-files/wireframes_overview.jpg" width="600" />
+    <img alt="Early wireframes" src="" width="600" />
 </p>
 
 
