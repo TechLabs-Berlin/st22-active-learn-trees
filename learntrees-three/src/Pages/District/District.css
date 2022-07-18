@@ -2,41 +2,28 @@ section {
     height: 100%;
     width: 100%;
     text-align: center;
-    font-family: sans-serif;
-    background-color:white;
+    font-family: 'Marck Script', cursive;
+    background-color: black;
   }
-  .img-fluid-logo-app{
-    height: 60%;
-    transform: translateY(-10px);
-    width: 30px;
-}
-.green-monitor-app {
-    color: #4a7a0f;
-    font-family: sans-serif;
-    font-size: 1em;
-    transform: translateY(px);
-    
-}
-  h3{
-    padding-top: 5px;
+  h1{
+    padding-top: -10px;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 2em;
-    color: black;
+    font-family: 'Marck Script', cursive;
+    font-size: 3.5em;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
     display: inline-block;
     
   }
-  .h3{
-    color: black;
-    font-size: 1em;
-    font-weight: bold;
-
+  .h1{
+    color: white;
   }
-  .select-district-h4{
+  h2{
     text-align: center;
-    font-family: sans-serif;
-    font-size: 1em;
-    color: black;
+    font-family: 'Marck Script', cursive;
+    font-size: 2.5em;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
     display: inline-block;
   }
   
@@ -47,31 +34,34 @@ section {
     margin-top: 50px;
     margin-left: -50px;
   }
+  input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid blue;
+  }
   .column {
       margin-top: 30px;
-      font-size: 1.7em;
-      font-weight: bold;
-      font-family: sans-serif;
+      font-size: 2em;
   }
   .first {
-    font-weight: bold;
     height: 400px;
     width: 550px;
+    background-color: black;
     color: white;
-    background-image: url('../../Assets/Images/Mitte/Mitte1.png');
+    background-image: url('https://images.unsplash.com/photo-1519567770579-c2fc5436bcf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0.5em 0.5em -0.4em;
     transform: translateX(-0.50em);
-    font-family: 'Open Sans', sans-serif;
+  
   }
   .second {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Pankow/Pankow1.png');
+    background-image: url('https://images.unsplash.com/photo-1502394202744-021cfbb17454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -83,7 +73,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Charlottenburg/Charlottenburg2.png');
+    background-image: url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -95,7 +85,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Friedrichshain/friedrichshain1.png');
+    background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -107,7 +97,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Spandau/Spandau1.png');
+    background-image: url('https://images.unsplash.com/photo-1462143338528-eca9936a4d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -119,7 +109,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Reinickendorf/Renickendorf1.jpg');
+    background-image: url('https://images.unsplash.com/photo-1501856054482-8b7fbff7b3fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -132,7 +122,7 @@ section {
     width: 550px;
     background-color: black;
     color: white;
-    background-image: url('../../Assets/Images/Lichtenberg/Lichtenberg1.jpg');
+    background-image: url('https://images.unsplash.com/photo-1519567770579-c2fc5436bcf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -146,7 +136,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Marzahn/Marzahn2.jpg');
+    background-image: url('https://images.unsplash.com/photo-1502394202744-021cfbb17454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -159,7 +149,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/kopenick/kopenick1.png');
+    background-image: url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -172,7 +162,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Neukoln/Neukoln1.png');
+    background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -185,7 +175,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Tempelhof/Tempelhof1.png');
+    background-image: url('https://images.unsplash.com/photo-1462143338528-eca9936a4d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -198,7 +188,7 @@ section {
     height: 400px;
     width: 550px;
     color: white;
-    background-image: url('../../Assets/Images/Steglitz/SteglitzZehlendorf1.png');
+    background-image: url('https://images.unsplash.com/photo-1501856054482-8b7fbff7b3fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHRyZWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -209,32 +199,13 @@ section {
   
   
   
-  /* .menu {
+  .menu {
     display: flex;
     align-items: flex-end;
     justify-content: end;
-  } */
+  }
   a {
-    /* box-shadow: 0 0.5em 0.5em -0.4em; */
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    /* font-size: 1.3em; */
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.3em;
   }
-
-  a.item:active {
-    color: black;
-  }
-  @media screen and (max-width: 500px){
-    .district a {
-      float: none;
-      display: block;
-    }
-    
-  }
-
-
-  
-  
-  
-  
-   

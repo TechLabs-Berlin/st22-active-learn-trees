@@ -2,7 +2,7 @@ import React, { useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import * as Icons from "react-icons/fa";
+
 /*function Navbar() {
   const [mobile, setMobile] = useState(false);
   const [sidebar, setSidebar] = useState(false);
@@ -47,13 +47,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Navbar = () => {
     return(
         <>
-        <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-black bg-white">
         <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span >
-        <FontAwesomeIcon icon="fa-solid fa-bars" size="6x" color="black"/>
-
+      <span class="navbar-toggler-icon">
+        
       </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">

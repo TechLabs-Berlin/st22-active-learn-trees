@@ -1,37 +1,18 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
 import { Link } from "react-router-dom";
-import App_Logo from '../../Assets/Images/App_Logo.png';
 
-const District2 = () => {
+
+const District5 = () => {
 return( 
     <>
     <div className="district-body">
       <Navbar />
-
-      <div>
-                    <img 
-                        className="img-fluid-logo-app"
-                        src={App_Logo}>
-                            
-                    </img>
-                    <div>
-                    <h1 className="green-monitor-app">GreenMonitor</h1>
-                    </div>
-                    </div>
-                    <div>
-                    <hr style={{
-                      background: 'grey',
-                      color: 'black',
-                      borderColor: 'black',
-                      height: '3px',
-                    }}></hr>
-                    </div>
       <h1 className="district-header">Active_Learn_Trees</h1>
  
       <div className="district1-container">
             <div class="picture-column">
-                <h1 className="main-header">Pankow</h1>
+                <h1 className="main-header">District 5</h1>
             </div>
       </div>
       <h1 className="second-header">Information</h1>
@@ -97,13 +78,11 @@ return(
         </div>
         
         <div className="btn-div">
-            <button className="exploretrees-btn"><Link to = '/uploadImage'> Explore trees</Link></button>
+            <button className="viewMore-btn"><Link to = '/district'> View More</Link></button>
         </div>
 
    </div>
    </>
 );
 };
-
-
-export default District2;
+export default District5;

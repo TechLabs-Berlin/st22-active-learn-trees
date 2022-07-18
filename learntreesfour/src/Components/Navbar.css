@@ -6,10 +6,10 @@
 .navbar-collapse{
     flex-grow: 0;
 }
-.item{
+.item {
     font-size: 1.5em;
     font-family: sans-serif;
-    color: black;
+    color:black;
 }
 
 
@@ -22,16 +22,19 @@
     justify-content: flex-end;
   }
   .ui.inverted.menu{
-    background: inherit;
+    background:white;
+    color:black;
     
   }
+  .ui.inverted.menu
   .item{
     font-size: 1em;
-    color: white;
+    color:black;
 }
 }  
 .navbar>.container-fluid{
     padding-right: 0;
 }
+
 
 

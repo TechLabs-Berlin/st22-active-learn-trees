@@ -1,13 +1,32 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
 import { Link } from "react-router-dom";
-
+import App_Logo from '../../Assets/Images/App_Logo.png';
 
 const District7 = () => {
 return( 
     <>
     <div className="district-body">
       <Navbar />
+
+      <div>
+                    <img 
+                        className="img-fluid-logo-app"
+                        src={App_Logo}>
+                            
+                    </img>
+                    <div>
+                    <h1 className="green-monitor-app">GreenMonitor</h1>
+                    </div>
+                    </div>
+                    <div>
+                    <hr style={{
+                      background: 'grey',
+                      color: 'black',
+                      borderColor: 'black',
+                      height: '3px',
+                    }}></hr>
+                    </div>
       <h1 className="district-header">Active_Learn_Trees</h1>
  
       <div className="district1-container">
@@ -78,7 +97,7 @@ return(
         </div>
         
         <div className="btn-div">
-            <button className="viewMore-btn"><Link to = '/district'> View More</Link></button>
+            <button className="exploretrees-btn"><Link to = '/district'> Explore trees</Link></button>
         </div>
 
    </div>

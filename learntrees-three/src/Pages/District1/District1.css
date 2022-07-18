@@ -8,10 +8,10 @@
     background-size: 100%;
     object-fit: cover;
     background-image: 100%;
-    background-color: white;
+    background-color: black;
     height: 100%;
     width: 100%;
-    ;
+    background-image: url('../../Assets/Images/pic1.avif');
 
     
 }
@@ -81,23 +81,20 @@
     align-items: center;
     text-align: center;
 }
-
-
-
-.exploretrees-btn {
+.viewMore-btn {
     background: none;
-    background-color: #4a7a0f;
-    color: #ffff;
-    border: 2px solid #0000;
+    background-color: #eee3e5;
+    color: #ff4d6d;
+    border: 2px solid #ffccd5;
     padding: 0.5em 1em;
     transition: all 0.25s;
     width: 10em;
-    box-shadow: 10px 5px 5px grey;
+
     border-radius: 5px;
 
 }
-.exploretrees-btn:hover {
-    background-color: #068643;
+.viewMore-btn:hover {
+    background-color: #ff8fa3;
     color: white;
     box-shadow: 0 0.5em 0.5em -0.4em;
     transform: translateY(-0.50em);
@@ -107,7 +104,7 @@
     transform: translateY(-50px);
 } 
 @media (max-width: 768px) {
-    .district-header, .district-main-header, .second-header {
+    .district-header, .main-header, .second-header {
         font-size: 2em;
         justify-content: center;
         align-items: center;
@@ -138,7 +135,7 @@
     }
 }
 @media (max-width: 768px) {
-    .district-header, .district-main-header {
+    .district-header, .main-header {
         transform: translateY(15px);
     }
 }
@@ -151,7 +148,7 @@
         z-index: 50%;
     }
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .menu,a {
         font-size: 1.2em;
     }
@@ -166,10 +163,10 @@
     .ui.inveted.menu {
       background: inherit;
     }
-}  */
+} 
 /* 576px--------------------------------------------------------------------------------------------------- */
 @media (max-width: 576px) {
-    .district-header, .district-main-header, .second-header {
+    .district-header, .main-header, .second-header {
         font-size: 1.5em;
         justify-content: center;
         align-items: center;
@@ -213,7 +210,7 @@
         z-index: 50%;
     }
 }
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
     .menu,a {
         font-size: 1.2em;
     }
@@ -228,16 +225,9 @@
     .ui.inveted.menu {
       background: inherit;
     }
-}  */
+} 
 @media (max-width: 576px) {
     h2{
       font-size: 1.5em;
     }
 } 
-
-   
-    
-
-
-
-
