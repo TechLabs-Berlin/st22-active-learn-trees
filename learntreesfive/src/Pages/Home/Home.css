@@ -1,0 +1,207 @@
+.page-body {
+    text-align: center;
+    /*background-size: cover;*/
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* transition: 5s ease-in-out; */
+    background-size: 100%;
+    object-fit: cover;
+    background-image: 100%;
+    /* background-image: url('../../Assets/Images/pic1.avif');  */
+    height: 100%;
+    width: 100%;
+    background-color: #f0efeb;
+}
+.img-fluid-homepic{
+    width: 13em;
+    height: 15em;
+    margin-top: -20px;
+}
+.home-page-main-heading{
+    margin-top: -80px;
+}
+
+.home-page-h1 {
+    margin: 0 auto;
+    margin-top: 2em;
+    color: #5C5656;
+    transform: translateY(-1.3em);
+    display: inline-block;  
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+} 
+.home-second-header {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform : translateY(-150px);
+    display: inline-block;
+ 
+}
+.container1 {
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50px);
+}
+.home-about-btn {
+    background: none;
+    background-color: #5e964e;
+    color: #588157;
+    border: 2px solid #cbd5c1;
+    padding: 0.5em 2em;
+    transition: all 0.25s;
+    width: 10em;
+    border-radius: 10px;
+    font-size: 1em;
+    transform: translateY(-9em);
+    box-shadow: 0 5px #d3d3d3;
+}
+.home-about-btn:hover {
+    background-color: #568f0f;
+    color: #d3d3d3;
+    box-shadow: 0 1em 1em -0.4em;
+    cursor: pointer;
+}
+.home-button {
+    background: none;
+    background-color: #5e964e;
+    color: #588157;
+    border: 2px solid #cbd5c1;
+    padding: 0.7em 2em;
+    transition: all 0.25s;
+    width: 10em;
+    /* margin-top: 5em; */
+    border-radius: 10px;
+    font-size: 1em;
+    box-shadow: 0 5px #d3d3d3;
+}
+
+.home-button:hover {
+    background-color: #568f0f;
+    color: #d3d3d3;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.50em);
+    cursor: pointer;
+}
+.home-button1 {
+    background: none;
+    background-color: #5e964e;
+    color: #588157;
+    border: 2px solid #cbd5c1;
+    padding: 0.7em 0em;
+    transition: all 0.25s;
+    width: 10em;
+    /* margin-top: 5em; */
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    box-shadow: 0 5px #d3d3d3;
+}
+
+.home-button1:hover {
+    background-color: #568f0f;
+    color: #82ab50;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.50em);
+    cursor: pointer;
+}
+.Two-Buttons{
+    display: flex;
+    transform: translateY(-70px);
+}
+.para {
+    color: black;
+    font-family:sans-serif;
+    font-size: 1.3em;
+    transform: translateY(-150px);
+    font-weight: bold;
+}
+.home-page-para1{
+    color: black;
+    margin-right: 20px;
+    font-family:sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.home-page-para2{
+    color: black;
+    margin-left: 20px;
+    font-family:sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.para-with-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* -------------------MEDIA QUERIESS 576px------------------------ */
+@media (max-width: 768px) {
+    .page-body {
+        text-align: center;
+        background-size: cover;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;    
+    }
+    .main-header {
+        font-size: 2.2em;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        /* transform: translateY(-0.5em); */
+        display: inline-block;
+    }
+    .home-second-header{
+        font-size: 1.7em;
+        transform: translateY(-30px);
+    }
+    .para {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+    .Two-Buttons{
+        display: flex;
+    }
+}
+
+/* -------------------MEDIA QUERIESS 576px------------------------ */
+
+@media (max-width: 576px) {
+    .page-body {
+        text-align: center;
+        background-size: cover;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;    
+    }
+    .home {
+        font-size: 3em;
+        justify-content: center;
+        align-items: center;
+        /* transform: translateY(-0.5em); */
+        display: inline-block;
+    }
+    .home-second-header{
+        font-size: 1.5em;
+        transform: translateY(-20px);
+    }
+    .para {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+}
