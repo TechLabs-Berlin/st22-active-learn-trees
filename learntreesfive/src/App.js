@@ -25,7 +25,7 @@ import ExploreTreesWithinFriedrichshain from "./Pages/ExploreTreesWithinFriedric
 import ExploreTreesWithinReinickendorf from "./Pages/ExploreTreesWithinReinickendorf/ExploreTreesWithinReinickendorf";
 import ExploreTreesWithinLichtenberg from "./Pages/ExploreTreesWithinLichtenberg/ExploreTreesWithinLichtenberg";
 import ExploreTreesWithinMarzahn from "./Pages/ExploreTreesWithinMarzahn/ExploreTreesWithinMarzahn";
-import ExploreTreesWithinNeukölln from "./Pages/ExploreTreesWithinNeukölln/ExploreTreesWithinNeukölln";
+import ExploreTreesWithinNeukolln from "./Pages/ExploreTreesWithinNeukolln/ExploreTreesWithinNeukolln";
 import ExploreTreesWithinSpandau from "./Pages/ExploreTreesWithinSpandau/ExploreTreesWithinSpandau";
 import ExploreTreesWithinSteglitz from "./Pages/ExploreTreesWithinSteglitz/ExploreTreesWithinSteglitz";
 import ExploreTreesWithinTempelhof from "./Pages/ExploreTreesWithinTempelhof/ExploreTreeWithinTempelhof";
@@ -70,7 +70,7 @@ const App = () => {
         <Route exact path="/exploreTreesWithinFriedrichshain" element = {<ExploreTreesWithinFriedrichshain/>} />
         <Route exact path="/exploreTreesWithinLichtenberg" element = {<ExploreTreesWithinLichtenberg/>} />
         <Route exact path="/exploreTreesWithinMarzahn" element = {<ExploreTreesWithinMarzahn/>} />
-        <Route exact path="/exploreTreesWithinNeukölln" element = {<ExploreTreesWithinNeukölln/>} />
+        <Route exact path="/exploreTreesWithinNeukolln" element = {<ExploreTreesWithinNeukolln/>} />
         <Route exact path="/exploreTreesWithinReinickendorf" element = {<ExploreTreesWithinReinickendorf/>} />
         <Route exact path="/exploreTreesWithinSpandau" element = {<ExploreTreesWithinSpandau/>} />
         <Route exact path="/exploreTreesWithinSteglitz" element = {<ExploreTreesWithinSteglitz/>} />

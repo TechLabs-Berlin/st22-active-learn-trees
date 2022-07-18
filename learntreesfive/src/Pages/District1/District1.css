@@ -60,7 +60,8 @@
     transform : translateY(-150px);
 }
 .ui  left aligned segment {
-    color: white;
+    color: inherit;
+    
 
 }
 .info-section {
@@ -68,6 +69,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #f0efeb;
+    color: black;
     
 
 }
@@ -76,6 +79,7 @@
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    
     
 
 }
@@ -89,7 +93,63 @@
     align-items: center;
     text-align: center;
     background-color: #f0efeb;
-    color: rgb(0, 0, 0);
+    color: black;
+}
+.ui.inverted.black.segment {
+    background-color: #f0efeb;
+}
+.description {
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    
+    
+}
+.description1 {
+   text-align: center;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+   line-height: 1.6;
+
+}
+.classification{
+    font-weight: bold;
+}
+.learn {
+    color: #5e964e;
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray,
+                 2px 2px 1px gray;
+
+
+}
+.tab{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8em;
+    
+
+}
+table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+    
+  
+}
+th {
+    border-bottom: 1px solid black;
+}
+td {
+    text-align: center;
+    
 }
 .exploreTrees-btn {
     background: none;
@@ -98,11 +158,11 @@
     border: 2px solid #d3d3d3;
     padding: 0.25em 1em;
     transition: all 0.25s;
-    width: 30em;
+    width: 22em;
     border-radius: 10px;
     box-shadow: 0 5px #d3d3d3;
 
-    border-radius: 5px;
+    
 
 }
 
@@ -230,6 +290,7 @@
         width: 35%;
         font-size: 0.7em;
         z-index: 50%;
+        background-color: #f0efeb;
     }
 }
 /* @media (max-width: 576px) {
