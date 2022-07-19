@@ -9,7 +9,7 @@
 
 ## Repository structure
 
-- [UX materials and links]() (Add link)
+- [UX materials and links](https://www.figma.com/proto/PGq3rmaDOrUktd5JprehYb/High-fidelity-prototype?node-id=0%3A1&scaling=scale-down&starting-point-node-id=208%3A139)
 - [WD files]() (Add link)
 - [DS scripts]() (Add link)
 - [AI scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network)
