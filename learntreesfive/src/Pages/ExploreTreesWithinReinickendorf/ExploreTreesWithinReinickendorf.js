@@ -31,7 +31,7 @@ const ExploreTreesWithinReinickendorf= () => {
 
         </div>
         <div className="column1">
-          <Link to = '/WinderLinde'><div className="family">Winder-linder</div></Link>
+          <Link to = '/WinterLinde'><div className="family">Winder-linder</div></Link>
         </div>
         <div className="column1">
           <Link to = '/spitzAhorn'><div className="family">Spitz-Ahorn</div></Link>
@@ -43,7 +43,7 @@ const ExploreTreesWithinReinickendorf= () => {
           <Link to = '/sommerEicheStielEiche'><div className="family">sommer-Eiche, Stiel-Eiche</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/Ahornblättrigeplatane'><div className="family">Ahornblättrige platane</div></Link>
+          <Link to = '/Ahornblattrigeplatane'><div className="family">Ahornblättrige platane</div></Link>
         </div>
         <div className="column1">
           <Link to = '/AmerikanischeRotEiche'><div className="family">Amerikanische Rot-Eiche</div></Link>
@@ -55,7 +55,7 @@ const ExploreTreesWithinReinickendorf= () => {
           <Link to = '/BaumHasel'><div className="family">Baum-Hasel</div></Link>
           </div>
         <div className="column1">
-          <Link to = '/HolläandischeLinde'><div className="family">Holläandische Linde</div></Link>
+          <Link to = '/HollandischeLinde'><div className="family">Holländische Linde</div></Link>
         </div>
                
           <div className="column1">

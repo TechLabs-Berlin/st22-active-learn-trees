@@ -84,7 +84,7 @@ return(
                     <td>Neubrücker straße</td>
                 </tr>
                 <tr>
-                    <td>Highest Tree in Reinickendorf(Populs nigra)</td>
+                    <td>Highest Tree in Reinickendorf(Populus nigra)</td>
                     <td>Italianische-pyramiden pappel</td>
                     <td>102 yrs</td>
                     <td>40m</td>
@@ -97,6 +97,60 @@ return(
                 
 
             </table>
+        </div>
+
+        <div className="tab">
+            <div>
+                <h2>CO2 absorption</h2>
+                <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
+                   <br></br> Carbon stored= half of the dry weight of the tree(dry weight/2).
+           
+                    <br></br>CO2 = thanks to molar mass ratios, we can break CO2 down and find it take 3.67kg
+                     <br></br>of CO2 to create 1kg of Carbon in the tree. That's because carbon has a molar mass of 12 
+                     <br></br>and oxygen 16. Combined as CO2 that's 44. And 44/12 = 3.67.          <br></br>Water(humidity)=50% of the total tree<br></br>
+                     
+                     CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                    
+
+
+                </p>
+            <table>
+                <tr>
+                    <th>Species</th>
+                    <th>Age(yrs)</th>
+                    <th>Height(m)</th>
+                    <th>Circumference(cm)</th>
+                    <th>Dry weight(kg)</th>
+                    <th>Carbon stored(kg) </th>
+                    <th>CO2 absorption per year(kg)</th>
+                    <th>CO2 absorption in total(kg)</th>
+                </tr>
+                <tr>
+                    <td>Quercus robur</td>
+                    <td>222 </td>
+                    <td>20</td>
+                    <td>691</td>
+                    <td>27774</td>
+                    <td>13,887</td>
+                    <td>50,965.29</td>
+                    <td>11,314,294.38</td>
+                </tr>
+                <tr>
+                    <td>Populus nigra</td>
+                    <td>102 </td>
+                    <td>40</td>
+                    <td>377</td>
+                    <td>18700</td>
+                    <td>9,350</td>
+                    <td>34,314.5</td>
+                    <td>3,500,079</td>
+                    
+
+                </tr>
+                
+
+            </table>
+        </div>
         </div>
         
         <div className="btn-div">

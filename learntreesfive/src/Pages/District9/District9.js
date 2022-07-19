@@ -95,6 +95,60 @@ return(
             </table>
         </div>
 
+        <div className="tab">
+            <div>
+                <h2>CO2 absorption</h2>
+                <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
+                   <br></br> Carbon stored= half of the dry weight of the tree(dry weight/2).
+           
+                    <br></br>CO2 = thanks to molar mass ratios, we can break CO2 down and find it take 3.67kg
+                     <br></br>of CO2 to create 1kg of Carbon in the tree. That's because carbon has a molar mass of 12 
+                     <br></br>and oxygen 16. Combined as CO2 that's 44. And 44/12 = 3.67.          <br></br>Water(humidity)=50% of the total tree<br></br>
+                     
+                     CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                    
+
+
+                </p>
+            <table>
+                <tr>
+                    <th>Species</th>
+                    <th>Age(yrs)</th>
+                    <th>Height(m)</th>
+                    <th>Circumference(cm)</th>
+                    <th>Dry weight(kg)</th>
+                    <th>Carbon stored(kg) </th>
+                    <th>CO2 absorption per year(kg)</th>
+                    <th>CO2 absorption in total(kg)</th>
+                </tr>
+                <tr>
+                    <td>Ulmus laevis</td>
+                    <td>524</td>
+                    <td>11</td>
+                    <td>486</td>
+                    <td>28674</td>
+                    <td>14,337</td>
+                    <td>52,616.79</td>
+                    <td>27,571,197.96</td>
+                </tr>
+                <tr>
+                    <td>Quercus petrea</td>
+                    <td>11 </td>
+                    <td>37</td>
+                    <td>37</td>
+                    <td>70</td>
+                    <td>35</td>
+                    <td>128.45</td>
+                    <td>1,412.95</td>
+                    
+
+                </tr>
+                
+
+            </table>
+        </div>
+        </div>
+
 
        
         

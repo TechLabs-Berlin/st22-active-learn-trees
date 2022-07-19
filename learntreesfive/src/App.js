@@ -42,6 +42,10 @@ import SommerLinde from "./Pages/SommerLinde/SommerLinde";
 import KaiserLinde from "./Pages/KaiserLinde/KaiserLinde";
 import Linde from "./Pages/Linde/Linde";
 import KrimLinde from "./Pages/KrimLine/KrimLinde";
+import GewohnlicheEsche from "./Pages/GewohnlicheEsche/GewohnlicheEsche";
+import SommerEicheStielEiche from "./Pages/SomerEicheStielEiche/SommerEicheStielEiche";
+import AmerikanischeLinde from "./Pages/AmerikanishcheLinde/AmerikanischeLinde";
+import AmerikanischeRotEiche from "./Pages/AmerikanischeRotEiche/AmerikanischeRotEiche";
 
 const App = () => {
   return(
@@ -88,6 +92,10 @@ const App = () => {
         <Route exact path="/KaiserLinde" element = {<KaiserLinde/>} />
         <Route exact path="/Linde" element = {<Linde/>} />
         <Route exact path="/krimLinde" element = {<KrimLinde/>} />
+        <Route exact path="/gewohnlicheEsche" element = {<GewohnlicheEsche/>} />
+        <Route exact path="/sommerEicheStielEiche" element = {<SommerEicheStielEiche/>} />
+        <Route exact path="/amerikanischeLinde" element = {<AmerikanischeLinde/>} />
+        <Route exact path="/amerikanischeRotEiche" element = {<AmerikanischeRotEiche/>} />
       </Routes>
     </Router>
   );

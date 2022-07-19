@@ -7,11 +7,11 @@ import AppLogo from "../../Components/AppLogo/AppLogo";
 
 const ExternalLink = () => {
    return <div>
-      <a href="https://www.mein-schoener-garten.de/pflanzen/linde/kaiserlinde" target="_blank"><div className="externalLink">More info Here</div></a>
+      <a href="https://www.pflanzmich.de/produkt/21340/amerikanische-roteiche.html" target="_blank"><div className="externalLink">More info Here</div></a>
    </div>
 }
 
-const KaiserLinde= () => {
+const AmerikanischeRotEiche= () => {
 return( 
     <>
     <div className="page-body">
@@ -31,9 +31,9 @@ return(
                  }}></hr>
                  </div>
                  <div className="group">Scientific name:</div>
-                 <div classname="scientific-name">Tilia europaea</div>
+                 <div classname="scientific-name">quercus rubra</div>
                  <div>
-                  <img src="https://www.mein-schoener-garten.de/sites/default/files/styles/achor_navigation_m/public/kaiserlinde-tilia-x-intermedia-pallida-01364630-florapress.jpg?h=c029297a&itok=bEuSVGB6" alt="image" />
+                  <img src="https://cdn.pflanzmich.de/produkt/21340/00-roteiche-quercus-rubra-in-hagenbeks-tierpark-im-september-fs_c_medium.jpg" alt="image" />
                  </div>
               
                  <div>
@@ -47,4 +47,4 @@ return(
 
 
 
-export default KaiserLinde;
+export default AmerikanischeRotEiche;

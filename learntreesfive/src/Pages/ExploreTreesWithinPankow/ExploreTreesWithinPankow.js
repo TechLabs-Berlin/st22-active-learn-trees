@@ -58,7 +58,7 @@ const ExploreTreesWithinPankow = () => {
           <Link to = '/GewohnlicheEsche'><div className="family">Gewohnliche Esche</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/sommerEicheStielEiche'><div className="family">sommer-Eiche, Stiel-Eiche</div></Link>
+          <Link to = '/SommerEicheStielEiche'><div className="family">sommer-Eiche, Stiel-Eiche</div></Link>
         </div>
         
                                                         

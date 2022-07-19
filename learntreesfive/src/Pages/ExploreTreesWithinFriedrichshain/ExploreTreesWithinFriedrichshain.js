@@ -34,10 +34,10 @@ const ExploreTreesWithinFriedrichshain = () => {
           <Link to = '/linde'><div className="family">Linde</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/KaiserLinder'><div className="family">Kaiser-Linde</div></Link>
+          <Link to = '/KaiserLinde'><div className="family">Kaiser-Linde</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/AhornblättrigePlatane'><div className="family">Ahornblättrige Platane</div></Link>
+          <Link to = '/AhornblattrigePlatane'><div className="family">Ahornblättrige Platane</div></Link>
         </div>
         <div className="column1">
           <Link to = '/WinterLinde'><div className="family">Winter-Linde</div></Link>
@@ -50,7 +50,7 @@ const ExploreTreesWithinFriedrichshain = () => {
           <div className="column1">
           <Link to = '/SilberLinde'><div className="family">Silber-Linde</div></Link>
           <div className="column1">
-          <Link to = '/HolländischeLinde'><div className="family">Holländische Linde</div></Link>
+          <Link to = '/HollandischeLinde'><div className="family">Holländische Linde</div></Link>
         </div>
         <div className="column1">
           <Link to = '/ChinesischeWildBirne'><div className="family">Chinesische Wild-Birne</div></Link>

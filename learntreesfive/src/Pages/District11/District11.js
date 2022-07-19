@@ -97,6 +97,59 @@ return(
 
             </table>
         </div>
+        <div className="tab">
+            <div>
+                <h2>CO2 absorption</h2>
+                <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
+                   <br></br> Carbon stored= half of the dry weight of the tree(dry weight/2).
+           
+                    <br></br>CO2 = thanks to molar mass ratios, we can break CO2 down and find it take 3.67kg
+                     <br></br>of CO2 to create 1kg of Carbon in the tree. That's because carbon has a molar mass of 12 
+                     <br></br>and oxygen 16. Combined as CO2 that's 44. And 44/12 = 3.67.          <br></br>Water(humidity)=50% of the total tree<br></br>
+                     
+                     CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                    
+
+
+                </p>
+            <table>
+                <tr>
+                    <th>Species</th>
+                    <th>Age(yrs)</th>
+                    <th>Height(m)</th>
+                    <th>Circumference(cm)</th>
+                    <th>Dry weight(kg)</th>
+                    <th>Carbon stored(kg) </th>
+                    <th>CO2 absorption per year(kg)</th>
+                    <th>CO2 absorption in total(kg)</th>
+                </tr>
+                <tr>
+                    <td>Acer pseudoplatanus</td>
+                    <td>362 </td>
+                    <td>14</td>
+                    <td>189</td>
+                    <td>2,674</td>
+                    <td>1,337</td>
+                    <td>4,906.79</td>
+                    <td>1,776,257.98</td>
+                </tr>
+                <tr>
+                    <td>Populus nigra</td>
+                    <td>110</td>
+                    <td>35</td>
+                    <td>330</td>
+                    <td>15,350</td>
+                    <td>7,675</td>
+                    <td>28,167.25</td>
+                    <td>3,098397.5</td>
+                    
+
+                </tr>
+                
+
+            </table>
+        </div>
+        </div>
         
         <div className="btn-div">
             <button className="exploreTrees-btn"><Link to = '/exploreTreesWithinTempelhof'>Explore trees within Tempelhof</Link></button>

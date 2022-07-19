@@ -37,7 +37,7 @@ const ExploreTreesWithinCharlottenburg = () => {
           <Link to = '/spitzAhorn'><div className="family">Spitz-Ahorn</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/AhornbiattrigePlatane'><div className="family">Ahornbiattrige Platane</div></Link>
+          <Link to = '/AhornblattrigePlatane'><div className="family">Ahornblattrige Platane</div></Link>
         </div>
         <div className="column1">
           <Link to = '/SommerEicheStielEiche'><div className="family">Sommer-Eiche,Stiel-Eiche</div></Link>
@@ -46,13 +46,13 @@ const ExploreTreesWithinCharlottenburg = () => {
           <Link to = '/AmerikanischeLinde'><div className="family">Amerikanische Linde</div></Link>
         </div>
         <div className="column1">
-          <Link to = '/HolländischeLinde'><div className="family">Holländische Linde</div></Link>
+          <Link to = '/HollandischeLinde'><div className="family">Holländische Linde</div></Link>
           </div>
           <div className="column1">
-          <Link to = '/käiserlinder'><div className="family">kaiser-linde</div></Link>
+          <Link to = '/KaiserLinde'><div className="family">kaiser-linde</div></Link>
           </div>
           <div className="column1">
-          <Link to = '/AmerikanischeRot-Eiche'><div className="family">Amerikanische Rot-Eiche</div></Link>
+          <Link to = '/AmerikanischeRotEiche'><div className="family">Amerikanische Rot-Eiche</div></Link>
           </div>
           <div className="column1">
           <Link to = '/SilberLinde'><div className="family">Silber-Linde</div></Link>

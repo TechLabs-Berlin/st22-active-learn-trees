@@ -31,7 +31,7 @@ const ExploreTreesWithinSteglitz = () => {
 
         </div>
         <div className="column1">
-          <Link to = '/WinderLinde'><div className="family">Winder-linder</div></Link>
+          <Link to = '/WinterLinde'><div className="family">Winter-linde</div></Link>
         </div>
         <div className="column1">
           <Link to = '/spitzAhorn'><div className="family">Spitz-Ahorn</div></Link>
