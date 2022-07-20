@@ -78,6 +78,22 @@ The main statistics performed on trees per their species showcase the following:
     ![image](https://user-images.githubusercontent.com/72529331/179850211-288bca32-bf14-4197-972b-9e89121c1e94.png)
     
 ### Visualizations per district
+We decided that the following information will be interesting for every district:
+* Top 10 most common species per district (and visualization)
+* Top 10 streets with most trees per district (and visualization)
+* Hightest tree
+* Oldest tree
+
+Here are examples for Berlin Mitte:
+
+* Top 10 most common species in Mitte
+![image](https://user-images.githubusercontent.com/71033405/179935309-a75e8cfa-2b55-402b-98d2-f1fbe268fc83.png)
+
+* Top 10 streets with most trees in Mitte
+![image](https://user-images.githubusercontent.com/71033405/179935369-01d3264e-0904-41ac-8125-5e6131f625e2.png)
+
+* Hightest & Oldest tree in Mitte
+![image](https://user-images.githubusercontent.com/71033405/179935403-6ed5df87-b33f-429b-bf16-88136fa20175.png)
 
 ### Machine Learning: Estimating Age
 The machine learning algorithm was trained to predict the age. First, the trees age is calculated based on the growth factor of each tree species. These are the formulas used to calculate age:
