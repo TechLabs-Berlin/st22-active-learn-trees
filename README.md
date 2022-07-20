@@ -53,13 +53,12 @@ AI: (PLEASE AJUST)
 
 
 ## Authors (PLEASE AJUST)
-- Atenkia([GitHub](https://github.com/atenkia)) 
 
 UX
 - Ese ([GitHub]()) (Add github handle)
 
 WD
-- Solange ([GitHub]()) (Add github handle)
+- Solange ([GitHub](https://github.com/atenkia))
 - Muhammad ([GitHub]()) (Add github handle)
 
 DS
