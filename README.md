@@ -67,20 +67,20 @@ AI: (PLEASE AJUST)
 - Atenkia([GitHub](https://github.com/atenkia), [LinkedIn]()) 
 
 UX
-- Ese ([GitHub](), [LinkedIn]())
+- Ese ([GitHub]()) (Add github handle)
 
 WD
-- Solange ([GitHub](), [LinkedIn]())
-- Muhammad ([GitHub](), [LinkedIn]())
+- Solange ([GitHub]()) (Add github handle)
+- Muhammad ([GitHub]()) (Add github handle)
 
 DS
-- Houda ([GitHub](https://github.com/Houda-Ouhmad), [LinkedIn]()) 
-- Anna ([GitHub](https://github.com/AnnaUlbri),[LinkedIn]()) 
-- Abiraam ([GitHub](), [LinkedIn]())
+- Houda ([GitHub](https://github.com/Houda-Ouhmad)) 
+- Anna ([GitHub](https://github.com/AnnaUlbri)) 
+- Abiraam ([GitHub]()) (Add github handle)
 
 AI
-- Hany ([GitHub](https://github.com/Hany-mohsen-elhassany), [LinkedIn]()) 
-- Constanze ([GitHub](https://github.com/Constifox), [LinkedIn]()) 
+- Hany ([GitHub](https://github.com/Hany-mohsen-elhassany)) 
+- Constanze ([GitHub](https://github.com/Constifox)) 
 
 Tutor
 - Faruk 
