@@ -1,7 +1,9 @@
 # PLEASE ADJUST!
 
+
+
 <div align="center">
-# st22-active-learn-trees
+# Green Monitor
 
 ### Read more in our [Blog Post](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/blogpost.md).
 
@@ -87,7 +89,7 @@ AI: (PLEASE AJUST)
 ## Authors (PLEASE AJUST)
 
 UX
-- Ese ([GitHub]()) (Add github handle)
+- Ese ([GitHub](https://github.com/Ese101))
 
 WD
 - Solange ([GitHub](https://github.com/atenkia))
