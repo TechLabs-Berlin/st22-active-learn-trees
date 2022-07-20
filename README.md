@@ -50,8 +50,8 @@ DS: (PLEASE AJUST)
 AI: (PLEASE AJUST)
 - [Pytorch](https://pytorch.org/)
 - [TensorFlow](https://www.tensorflow.org/)
-- [Keras](https://keras.io/))
-- [Superintendent] (https://superintendent.readthedocs.io/en/latest/)
+- [Keras](https://keras.io/)
+- [Superintendent](https://superintendent.readthedocs.io/en/latest/) (Active learning)
 
 
 ## Authors (PLEASE AJUST)
