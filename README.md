@@ -10,14 +10,15 @@
 ## Repository structure
 
 - [UX materials and links](https://www.figma.com/proto/PGq3rmaDOrUktd5JprehYb/High-fidelity-prototype?node-id=0%3A1&scaling=scale-down&starting-point-node-id=208%3A139)
-- [WD files]() (Add link)
+- [WD scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/learntreesfive)
 - [DS scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DS-district-analysis)
 - [AI scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network)
 
 ## UX: Design files
 
 
-## WD: Steps to run the prototype locally
+## WD: [Steps To run locally](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/second-branch/firsttry#readme)
+
 
 
 
@@ -59,7 +60,8 @@ UX
 
 WD
 - Solange ([GitHub](https://github.com/atenkia))
-- Muhammad ([GitHub]()) (Add github handle)
+- Muhammad ([GitHub](https://github.com/Faiydee))
+
 
 DS
 - Houda ([GitHub](https://github.com/Houda-Ouhmad)) 
