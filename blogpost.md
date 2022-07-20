@@ -55,8 +55,11 @@ The overall development process is illustrated below. It should also be mentione
 
 
 ##  Data science
-The data science track was responsible for collecting trees data around Berli, clean it, present it through different visualisations, and build a machine learning model to predict trees age. The data is collected from the website of the Senate Department for the Environment, Urban Mobility, Consumer Protection and Climate Action in Berlin. 
-After cleaning the dataset from anomalies, it is stored in the drive under the following link https://www.notion.so/Cleaned-Dataset-Visualizations-6eeb0250bcb44278b4d4449a38783b49#d503c1c276214002b36c347142fdd781 and a table containing the dataset is created in the supabase database.
+The data science track was responsible for collecting trees data around Berlin, clean it, present it through different visualisations, and build a machine learning model to predict trees age. The data is collected from the website of the Senate Department for the Environment, Urban Mobility, Consumer Protection and Climate Action in Berlin. 
+
+We cleaned the dataset from anomalies, like mixed up age and planting year. And then stored in the drive under the following link https://www.notion.so/Cleaned-Dataset-Visualizations-6eeb0250bcb44278b4d4449a38783b49#d503c1c276214002b36c347142fdd781 and a table containing the dataset is created in the supabase database.
+
+### Visualizations per species
 The visualizations were done according to two categories which are based on tree species and based on Berlin district. 
 The main statistics performed on trees per their species showcase the following:
     -- The number of trees per species 
@@ -73,7 +76,10 @@ The main statistics performed on trees per their species showcase the following:
    ![image](https://user-images.githubusercontent.com/72529331/179849995-c8d9fd3b-046d-416a-b70f-8e74280b0232.png)
     -- The average crown diameter per species
     ![image](https://user-images.githubusercontent.com/72529331/179850211-288bca32-bf14-4197-972b-9e89121c1e94.png)
+    
+### Visualizations per district
 
+### Machine Learning: Estimating Age
 The machine learning algorithm was trained to predict the age. First, the trees age is calculated based on the growth factor of each tree species. These are the formulas used to calculate age:
     -- diameter = circumference / 3.14  (Pi)
     -- age = diameter * growth factor
