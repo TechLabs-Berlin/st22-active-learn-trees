@@ -11,7 +11,7 @@
 
 - [UX materials and links](https://www.figma.com/proto/PGq3rmaDOrUktd5JprehYb/High-fidelity-prototype?node-id=0%3A1&scaling=scale-down&starting-point-node-id=208%3A139)
 - [WD files]() (Add link)
-- [DS scripts]() (Add link)
+- [DS scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DS-district-analysis)
 - [AI scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network)
 
 ## UX: Design files
@@ -38,33 +38,22 @@ XX==2.7.0
 ## Dependencies (PLEASE AJUST)
 
 ### Node.js (PLEASE AJUST)
-- [Express](https://www.npmjs.com/package/express)
-- [Embedded JavaScript templates](https://www.npmjs.com/package/ejs)
-- [Multer](https://www.npmjs.com/package/multer)
-- [nodemon](https://www.npmjs.com/package/nodemon)
-- [connect-flash](https://www.npmjs.com/package/connect-flash)
-- [ejs-mate](https://www.npmjs.com/package/ejs-mate)
 
 
 ### JavaScript/ (PLEASE AJUST)
-- [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js)
-- [Bootstrap](https://getbootstrap.com/)
-- [JQuery](https://jquery.com/)
 
 ### Python (PLEASE AJUST)
 DS: (PLEASE AJUST)
-- [Pytorch](https://pytorch.org/)
-- [SoundFile](https://pypi.org/project/SoundFile/)
-- [TensorFlow](https://www.tensorflow.org/)
+
 
 AI: (PLEASE AJUST)
 - [Pytorch](https://pytorch.org/)
-- [SoundFile](https://pypi.org/project/SoundFile/)
 - [TensorFlow](https://www.tensorflow.org/)
+- [Keras](https://keras.io/))
 
 
 ## Authors (PLEASE AJUST)
-- Atenkia([GitHub](https://github.com/atenkia), [LinkedIn]()) 
+- Atenkia([GitHub](https://github.com/atenkia)) 
 
 UX
 - Ese ([GitHub]()) (Add github handle)
