@@ -86,13 +86,16 @@ We decided that the following information will be interesting for every district
 
 Here are examples for Berlin Mitte:
 
-* Top 10 most common species in Mitte
+Top 10 most common species in Mitte
+
 ![image](https://user-images.githubusercontent.com/71033405/179935309-a75e8cfa-2b55-402b-98d2-f1fbe268fc83.png)
 
-* Top 10 streets with most trees in Mitte
+Top 10 streets with most trees in Mitte
+
 ![image](https://user-images.githubusercontent.com/71033405/179935369-01d3264e-0904-41ac-8125-5e6131f625e2.png)
 
-* Hightest & Oldest tree in Mitte
+Hightest & Oldest tree in Mitte
+
 ![image](https://user-images.githubusercontent.com/71033405/179935403-6ed5df87-b33f-429b-bf16-88136fa20175.png)
 
 ### Machine Learning: Estimating Age
