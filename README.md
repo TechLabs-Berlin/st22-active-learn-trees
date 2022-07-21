@@ -1,9 +1,7 @@
-# PLEASE ADJUST!
-
-
+# Green Monitor
 
 <div align="center">
-# Green Monitor
+
 
 ### Read more in our [Blog Post](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/blogpost.md).
 
