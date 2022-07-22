@@ -15,19 +15,11 @@ Vision: Facilitate people in Berlin to gain more knowledge about the trees surro
 
 TODO: Add logo
 <p align="center">
-    <img alt="Trees logo" src="" width="400" />
+    <img alt="GreenMonitor logo" src="" width="400" />
 </p>
 
 ### UX: Define the macro-design direction
-(PLEASE AJUST TEXT)
-Progress so far:
-Presented the first design sketch with team and recorded rough ideas.
-Analysed user flow.
-Transformed initial sketch into an interactive wireframe.
-Next steps:
-Prepare high fidelity prototype for testing.
-Present all possible details of structure and the prototype to team
-Create a LOGO for the product.
+Upon liasing with the WD track, the UX presented the first design sketch (created via Sketch) with team and recorded rough ideas. UX research was futher carried out on the target audience ("Whose problem will the app solve"?) and personas were collected though with some challenges as our product is quite unique and a thorough understanding of its purpose was required. After defining the design direction, the initial sketch was futher adjusted into a low fidelity wireframe and then developed into an interactive prototyp with figma. Details of structure and the prototype was presented to team while making adjustments were necessary. 
 Liaise with the WD track to determine the final design draft.
 
 
@@ -38,7 +30,7 @@ Liaise with the WD track to determine the final design draft.
 
 (Add wireframe link)
 <p align="center">
-    <img alt="Early wireframes" src="" width="600" />
+    <img alt="Prototype" src="" width="600" />
 </p>
 
 
@@ -118,3 +110,4 @@ The machine learning algorithm was trained to predict the age. First, the trees 
 
 # Final remarks
 
+UX: " Being the only UX techie in team made me quite skeptical at first but I was more than enthusiatic to jump on the challenge! Overall, it was a challenging, yet educative experience, having to work with a team of dedicated individuals and to explore act of designing!"
