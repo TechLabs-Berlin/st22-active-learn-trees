@@ -15,7 +15,7 @@ Vision: Facilitate people in Berlin to gain more knowledge about the trees surro
 
 TODO: Add logo
 <p align="center">
-    <img alt="GreenMonitor logo" src="" width="400" />
+    <img alt="GreenMonitor logo" src="img/App_logo..png" width="400" />
 </p>
 
 ### UX: Define the macro-design direction
@@ -24,7 +24,7 @@ Upon liasing with the WD track, the UX presented the first design sketch (create
 
 (Add personas link)
 <p align="center">
-    <img alt="Personas" src="g" width="600" />
+    <img alt="Personas" src="img/Personas.jpg" width="600" />
 </p>
 
 (Add wireframe link)
