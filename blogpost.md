@@ -14,17 +14,12 @@ Our application allows the user
 -to identify trees simply by uploading pictures with their smartphone or Laptop.
 
 Vision: Facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
+![image](https://imgur.com/a/end2MoR)
 
-TODO: Add logo
-<p align="center">
-    <img alt="GreenMonitor logo" src="https://imgur.com/a/end2MoR" width="400" />
-</p>
 
 ### UX: Define the macro-design direction
 Upon liasing with the WD track, the UX presented the first design sketch (created via Sketch) with team and recorded rough ideas. UX research was futher carried out on the target audience ("Whose problem will the app solve"?) and personas were collected though with some challenges as our product is quite unique and a thorough understanding of its purpose was required. After defining the design direction, the initial sketch was futher adjusted into a low fidelity wireframe and then developed into an interactive prototyp with figma. Details of structure and the prototype was presented to team while making adjustments were necessary.
 
-
-(Add personas link)
 <p align="center">
     <img alt="Personas" src="" width="600" />
 </p>
