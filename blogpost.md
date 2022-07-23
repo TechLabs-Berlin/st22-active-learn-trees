@@ -17,7 +17,7 @@ Vision: Facilitate people in Berlin to gain more knowledge about the trees surro
 
 TODO: Add logo
 <p align="center">
-    <img alt="GreenMonitor logo" src="" width="400" />
+    <img alt="GreenMonitor logo" src="https://imgur.com/a/end2MoR" width="400" />
 </p>
 
 ### UX: Define the macro-design direction
