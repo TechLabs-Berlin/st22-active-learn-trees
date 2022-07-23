@@ -14,7 +14,9 @@ Our application allows the user
 -to identify trees simply by uploading pictures with their smartphone or Laptop.
 
 Vision: Facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
-![image](https://imgur.com/a/end2MoR)
+
+
+![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/App_logo..png)
 
 
 ### UX: Define the macro-design direction
