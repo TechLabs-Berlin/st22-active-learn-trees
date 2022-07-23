@@ -4,12 +4,14 @@
 ### Our Path: From idea to application
 
 Original idea: 
-- The CO2 absorption of trees depends on their species, age and location.
-- Learn about and predict the CO2 absorption of trees in Berlin
+The CO2 absorption of trees depends on their species, age and location.
+Learn about and predict the CO2 absorption of trees in Berlin
 
-Our application will allow the user
-- to gain more information about trees in their selected district of Berlin.
-- to identify trees simply by uploading pictures with their smartphone or Laptop.
+Our application allows the user
+to gain more information about trees in the twelve districts of Berlin. 
+to understand the oldest and the highest tree in each districts of Berlin.
+to know the amount of CO2 each oldest and highest tree species in each district can absorb per year and in total life. 
+to identify trees simply by uploading pictures with their smartphone or Laptop.
 
 Vision: Facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
 
@@ -34,11 +36,21 @@ Upon liasing with the WD track, the UX presented the first design sketch (create
 
 
 ## Web development
-So basically we were informed to develope the app on React, which was introduced to us not long ago, so we had to face handsome amount of difficulties which on the other hand made us learn new things vey quickly, on React the code is components based, which makes it cleaner and reuasable. We were able to move changing data from component to component without many nasty hiccups. Again, the introduction to these technologies meant that we had to learn a great deal more than what was originally offered in the academic phase, but its outcome was immeasurably useful for us emerging developers.</p>
+So basically we were informed to develope the app on React, which was introduced to us not long ago, so we had to face handsome amount of difficulties which on the other hand made us learn new things vey quickly, on React the code is components based, which makes it cleaner and reuasable. We were able to move changing data from component to component without many nasty hiccups. Again, the introduction to these technologies meant that we had to learn a great deal more than what was originally offered in the academic phase, but its outcome was immeasurably useful for us emerging developers.
+  Web Dev Team developed the web based on the prototype designed by UX.
+Bootstrapped fundamental architecture.
+API Integrations(BackEnd functionalities on the image Upload part).
+Collected data from DS and “hard coded” it to have the top ten trees species,streets with most trees, the oldest and highest tree in each districts .
+Used google to search for how to calculate CO2 absorption with Species, Age,circumference, dry weight, CO2 absorption per year and in total for each districts.
+Each German name species has been provided with the Scientific Name and an image of the species. 
+Created an external link that will help users for more information.
+React router is used to direct to different pages based on the request.
+</p>
 
 ### Back-End
 
-<p> As both WD techies chose the front-end course during the academic phase, suddenly being confronted with back-end logic and challenges was certainly a challenge and required adaptability and time-investment. Luckily, under the guidance of the experienced mentors, back-end difficulties were overcome and its logic proved to be less of a frightening obstacle to us, the front-end techies. </p>
+<p> As both WD techies chose the front-end course during the academic phase, suddenly being confronted with back-end logic and challenges was certainly a challenge and required adaptability and time-investment. we were able to connect an API from AI tract to the the backend of the image upload part.
+concerning  the general backend of the app, we were unable to connect the data fron DS tract due to failure from the creation of API</p>
 
 The overall development process is illustrated below. It should also be mentioned that the tasks were not always worked on one after the other, but that work was often done in parallel on different challenges. Team WD decided to split the work based on interests and understanding of the code. This proved to be a successful decision in team communication in order to reach the ambitious goals. Through careful coordination, trust in each other’s abilities, and a great deal of motivation, challenges were overcome. Although some bugs remain, some functions are still merely placeholders, and the usability is rather limited due to the lack of responsiveness, the progress we made in such a short time was so unimaginable at the beginning of this bootcamp that this project for us in the WD track can only be considered a success. A great learning experience that we will bring to all pending future projects.  <br><br>
 
