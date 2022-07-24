@@ -1,5 +1,7 @@
 # Green Monitor
 
+The Green Monitor website is the result of a fruitful collaboration of UX Design, Web Development, Data Science and Deep Learning. The solution showcases the positive environmental impact of trees in Berlin and raises the users' awareness about the trees surrounding them. Our application allows the user to gain more information about trees in their selected district of Berlin and to identify trees simply by uploading pictures with their smartphone or Laptop. The application aims to facilitate users in Berlin to gain knowledge about the trees around them and encourages them to make Berlin greener together.
+
 <div align="center">
 
 
