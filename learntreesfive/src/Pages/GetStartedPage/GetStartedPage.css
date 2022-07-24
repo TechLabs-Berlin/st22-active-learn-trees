@@ -28,6 +28,8 @@
 .get-started-p{
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
+    padding-left: 20em;
+    padding-right: 20em;
 }
 .get-started-btn {
     background: none;

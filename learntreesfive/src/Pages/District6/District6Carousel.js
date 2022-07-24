@@ -16,9 +16,7 @@ return(
                         src= {Pankow1}
                         alt="First slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Reinickendorf</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -26,9 +24,7 @@ return(
                         src= {Pankow2}
                         alt="Second slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Reinickendorf</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -36,9 +32,7 @@ return(
                         src= {Pankow3}
                         alt="Third slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Reinickendorf</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -46,9 +40,8 @@ return(
                         src= {Pankow4}
                         alt="Third slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Reinickendorf</h1>
-                        </Carousel.Caption>
+                        
+                        
                     </Carousel.Item>
                 </Carousel>
            

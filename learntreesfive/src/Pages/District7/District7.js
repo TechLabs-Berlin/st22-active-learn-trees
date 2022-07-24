@@ -11,7 +11,7 @@ return(
       <Navbar />
       <div className="">
                             <div className="about-page-back">
-                            <Link to = '/home'> <a className="navbar-brand">Back</a></Link>
+                            <Link to = '/district'> <a className="navbar-brand">Back</a></Link>
                             </div>
               </div>
       <AppLogo />
@@ -30,7 +30,7 @@ return(
              <District7Carousel />
             </div>
       </div>
-      <h1 className="second-header">Information</h1>
+      <h1 className="second-header">Lichtenberg</h1>
 
 
       <div className="info-section">
@@ -97,9 +97,58 @@ return(
 
             </table>
         </div>
+
+        <div className="tab">
+            <div>
+                <h2>CO2 absorption</h2>
+                <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
+                   <br></br>Carbon stored= dry weight/2.
+                     <br></br>CO2 =  3.67kg(molar mass)
+                    <br></br>CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                     <br></br>CO2 absorption in total= CO2 absorption per * Age
+                  
+                </p>
+            <table>
+                <tr>
+                    <th>Species</th>
+                    <th>Age(yrs)</th>
+                    <th>Height(m)</th>
+                    <th>Circumference(cm)</th>
+                    <th>Dry weight(kg)</th>
+                    <th>Carbon stored(kg) </th>
+                    <th>CO2 absorption per year(kg)</th>
+                    <th>CO2 absorption in total(kg)</th>
+                </tr>
+                <tr>
+                    <td>Populus nigra</td>
+                    <td>59</td>
+                    <td>40</td>
+                    <td>186</td>
+                    <td>4000</td>
+                    <td>2000</td>
+                    <td>7,340</td>
+                    <td>433,060</td>
+                </tr>
+                <tr>
+                    <td>Betula pendula</td>
+                    <td>1 </td>
+                    <td>5</td>
+                    <td>12</td>
+                    <td>50</td>
+                    <td>25</td>
+                    <td>91.75</td>
+                    <td>91.75</td>
+                    
+
+                </tr>
+                
+
+            </table>
+        </div>
+        </div>
         
         <div className="btn-div">
-            <button className="exploreTrees-btn"><Link to = '/exploreTreesWithinLictenberg'> Explore trees within Lichtenberg</Link></button>
+            <button className="exploreTrees-btn"><Link to = '/ExploreTreesWithinLictenberg'> Explore trees within Lichtenberg</Link></button>
         </div>
 
    </div>

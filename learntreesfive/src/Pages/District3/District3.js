@@ -11,7 +11,7 @@ return(
       <Navbar />
       <div className="">
                             <div className="about-page-back">
-                            <Link to = '/home'> <a className="navbar-brand">Back</a></Link>
+                            <Link to = '/district'> <a className="navbar-brand">Back</a></Link>
                             </div>
               </div>
       <AppLogo />
@@ -30,7 +30,7 @@ return(
                     <District3Carousel />
                 </div>
         </div>
-      <h1 className="second-header">Information</h1>
+      <h1 className="second-header">Charlottenburg</h1>
 
 
       <div className="info-section">
@@ -84,7 +84,7 @@ return(
                 <tr>
                     <td>Highest Tree in Charlottenburg (Quercus Robur)</td>
                 <td>Sommer-Eiche</td>
-                    <td>167 yrs</td>
+                    <td>57 yrs</td>
                     <td>25m</td>
                     <td>320cm</td>
                     <td>22cm</td>
@@ -95,6 +95,55 @@ return(
                 
 
             </table>
+        </div>
+
+        <div className="tab">
+            <div>
+                <h2>CO2 absorption</h2>
+                <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
+                   <br></br>Carbon stored= dry weight/2.
+                     <br></br>CO2 =  3.67kg(molar mass)
+                    <br></br>CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                     <br></br>CO2 absorption in total= CO2 absorption per year* Age
+                  
+                </p>
+            <table>
+                <tr>
+                    <th>Species</th>
+                    <th>Age(yrs)</th>
+                    <th>Height(m)</th>
+                    <th>Circumference(cm)</th>
+                    <th>Dry weight(kg)</th>
+                    <th>Carbon stored(kg) </th>
+                    <th>CO2 absorption per year(kg)</th>
+                    <th>CO2 absorption in total(kg)</th>
+                </tr>
+                <tr>
+                    <td>Quercus robur</td>
+                    <td>167</td>
+                    <td>25</td>
+                    <td>370</td>
+                    <td>18700</td>
+                    <td>9,350</td>
+                    <td>34,314.5</td>
+                    <td>5,730,521.5</td>
+                </tr>
+                <tr>
+                    <td>Quercus robur </td>
+                    <td>57 </td>
+                    <td>25</td>
+                    <td>320</td>
+                    <td>12410</td>
+                    <td>6,205</td>
+                    <td>22,772.35</td>
+                    <td>1,298,023.96</td>
+                    
+
+                </tr>
+                
+
+            </table>
+        </div>
         </div>
         
         <div className="btn-div">

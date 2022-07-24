@@ -18,9 +18,7 @@ return(
                         src= {Mitte1}
                         alt="First slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Mitte</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -28,9 +26,7 @@ return(
                         src= {Mitte2}
                         alt="Second slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Mitte</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -38,9 +34,7 @@ return(
                         src= {Mitte3}
                         alt="Third slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Mitte</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -48,9 +42,7 @@ return(
                         src= {Mitte4}
                         alt="Third slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Mitte</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                 </Carousel>
            

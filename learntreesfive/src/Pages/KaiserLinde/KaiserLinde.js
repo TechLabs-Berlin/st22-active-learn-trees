@@ -7,7 +7,7 @@ import AppLogo from "../../Components/AppLogo/AppLogo";
 
 const ExternalLink = () => {
    return <div>
-      <a href="https://de.wikipedia.org/wiki/Kaiserlinde" target="_blank"><div className="externalLink">More info Here</div></a>
+      <a href="https://www.mein-schoener-garten.de/pflanzen/linde/kaiserlinde" target="_blank"><div className="externalLink">More info Here</div></a>
    </div>
 }
 
@@ -18,7 +18,7 @@ return(
       <Navbar />
       <div className="">
                             <div className="about-page-back">
-                            <Link to = '/home'> <a className="navbar-brand">Back</a></Link>
+                            <Link to = '/exploreTreesWithinMitte'> <a className="navbar-brand">Back</a></Link>
                             </div>
               </div>
       <AppLogo />
@@ -31,9 +31,9 @@ return(
                  }}></hr>
                  </div>
                  <div className="group">Scientific name:</div>
-                 <div classname="scientific-name">Acer Platanoids</div>
+                 <div classname="scientific-name">Tilia europaea</div>
                  <div>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kaiserlinde.jpg/1280px-Kaiserlinde.jpg" alt="image" />
+                  <img src="https://www.mein-schoener-garten.de/sites/default/files/styles/achor_navigation_m/public/kaiserlinde-tilia-x-intermedia-pallida-01364630-florapress.jpg?h=c029297a&itok=bEuSVGB6" alt="image" />
                  </div>
               
                  <div>

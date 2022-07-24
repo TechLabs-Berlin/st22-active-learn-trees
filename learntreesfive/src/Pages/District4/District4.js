@@ -11,7 +11,7 @@ return(
       <Navbar />
       <div className="">
                             <div className="about-page-back">
-                            <Link to = '/home'> <a className="navbar-brand">Back</a></Link>
+                            <Link to = '/district'> <a className="navbar-brand">Back</a></Link>
                             </div>
               </div>
       <AppLogo />
@@ -30,7 +30,7 @@ return(
              <District4Carousel />
             </div>
       </div>
-      <h1 className="second-header">Information</h1>
+      <h1 className="second-header">Friedrichshain</h1>
 
 
       <div className="info-section">
@@ -95,6 +95,55 @@ return(
                 
 
             </table>
+        </div>
+
+        <div className="tab">
+            <div>
+                <h2>CO2 absorption</h2>
+                <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
+                   <br></br>Carbon stored= dry weight/2.
+                     <br></br>CO2 =  3.67kg(molar mass)
+                    <br></br>CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                     <br></br>CO2 absorption in total= CO2 absorption per year* Age
+                  
+                </p>
+            <table>
+                <tr>
+                    <th>Species</th>
+                    <th>Age(yrs)</th>
+                    <th>Height(m)</th>
+                    <th>Circumference(cm)</th>
+                    <th>Dry weight(kg)</th>
+                    <th>Carbon stored(kg) </th>
+                    <th>CO2 absorption per year(kg)</th>
+                    <th>CO2 absorption in total(kg)</th>
+                </tr>
+                <tr>
+                    <td>Robinia pseudoacacia</td>
+                    <td>262 </td>
+                    <td>15</td>
+                    <td>276</td>
+                    <td>9842</td>
+                    <td>4,842</td>
+                    <td>18,060.07</td>
+                    <td>4,731,738.34</td>
+                </tr>
+                <tr>
+                    <td>Populus canadensis</td>
+                    <td>169 </td>
+                    <td>28</td>
+                    <td>525</td>
+                    <td>26674</td>
+                    <td>13,337</td>
+                    <td>48,946.79</td>
+                    <td>8,272,007.51</td>
+                    
+
+                </tr>
+                
+
+            </table>
+        </div>
         </div>
         
         <div className="btn-div">
