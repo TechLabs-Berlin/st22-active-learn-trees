@@ -138,6 +138,7 @@ This originates from the idea to combine species and age of tree to estimate the
 
 ![image](https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step1-exploring-datasets/leaves.png)
 
+For further details please refer to [DL-neural-network](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network). 
 
 # Final remarks
 
