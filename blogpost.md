@@ -1,19 +1,18 @@
 # Blogpost Trees
 
+The Green Monitor website is the result of a fruitful collaboration of UX Design, Web Development, Data Science and Deep Learning. The solution showcases the positive environmental impact of trees in Berlin and raises the users' awareness about the trees surrounding them. Our application allows the user to gain more information about trees in their selected district of Berlin and to identify trees simply by uploading pictures with their smartphone or Laptop. The application aims to facilitate users in Berlin to gain knowledge about the trees around them and encourages them to make Berlin greener together.
 
 ### Our Path: From idea to application
 
-Original idea: 
--The CO2 absorption of trees depends on their species, age and location.
--Learn about and predict the CO2 absorption of trees in Berlin
+Our original idea was based around the environmental impact of CO2 absorption of trees, which depends on their species, age and location. We wanted to learn about and predict the CO2 absorption of trees in Berlin.
 
 Our application allows the user
--to gain more information about trees in the twelve districts of Berlin. 
--to understand the oldest and the highest tree in each districts of Berlin.
--to know the amount of CO2 each oldest and highest tree species in each district can absorb per year and in total life. 
--to identify trees simply by uploading pictures with their smartphone or Laptop.
+- to gain more information about trees in the twelve districts of Berlin. 
+- to understand the oldest and the highest tree in each districts of Berlin.
+- to know the amount of CO2 each oldest and highest tree species in each district can absorb per year and in total life. 
+- to identify trees simply by uploading pictures with their smartphone or Laptop.
 
-Vision: Facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
+Our Vision is to facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
 
 <p align="center">
     <img alt="Logo" src="https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/App_logo..png" width="200"/>
@@ -72,11 +71,6 @@ The overall development process is illustrated below. It should also be mentione
     ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte_info.png)
     ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte_Co2.png)
 
-
-
-
-
-    
 
 ##  Data science
 The data science track was responsible for collecting trees data around Berlin, clean it, present it through different visualisations, and build a machine learning model to predict trees age. The data is collected from the website of the Senate Department for the Environment, Urban Mobility, Consumer Protection and Climate Action in Berlin. 
@@ -138,7 +132,12 @@ The machine learning algorithm was trained to predict the age. First, the trees 
 
 
 ##  AI/Deep Learning
-(PLEASE ADD TEXT)
+
+The Deep Learning Track was given the task to deevelop a model that would allow for tree identification based on a picture.  
+This originates from the idea to combine species and age of tree to estimate their CO2 absorption. But for this knowing the species of a tree is crucial and we wanted to aid this by allowing the user to identify a tree based on a picture. For the improvement of the training dataset we started implementing active learning and for the improvement of the neural network transfer learning.
+
+![image](https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step1-exploring-datasets/leaves.png)
+
 
 # Final remarks
 
