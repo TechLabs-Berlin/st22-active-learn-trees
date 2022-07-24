@@ -97,7 +97,6 @@ WD
 DS
 - Houda ([GitHub](https://github.com/Houda-Ouhmad)) 
 - Anna ([GitHub](https://github.com/AnnaUlbri)) 
-- Abiraam ([GitHub]()) (Add github handle)
 
 AI
 - Hany ([GitHub](https://github.com/Hany-mohsen-elhassany)) 
