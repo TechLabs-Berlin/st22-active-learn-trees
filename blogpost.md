@@ -23,13 +23,16 @@ Vision: Facilitate people in Berlin to gain more knowledge about the trees surro
 ### UX: Define the macro-design direction
 Upon liasing with the WD track, the UX presented the first design sketch (created via Sketch) with team and recorded rough ideas. UX research was futher carried out on the target audience ("Whose problem will the app solve"?) and personas were collected though with some challenges as our product is quite unique and a thorough understanding of its purpose was required. After defining the design direction, the initial sketch was futher adjusted into a low fidelity wireframe and then developed into an interactive prototyp with figma. Details of structure and the prototype was presented to team while making adjustments were necessary.
 
+<p>Personas</p>
 <p align="center">
-    <img alt="Personas" src="https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/Personas.jpg" width="600" />
+    <img alt="Personas" src="https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/Personas.jpg" width="700" />
 </p>
 
-(Add wireframe link)
+<p>High fidelity prototype
+</p>
+
 <p align="center">
-    <img alt="Prototype" src="" width="600" />
+    <img alt="High fidelity Prototype" src="https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/High%20fidelity%20prototype.png" width="600" />
 </p>
 
 
