@@ -26,9 +26,11 @@ const GetStartedPage = () => {
                     </div>
                     <div>
                         <p className="get-started-p">
-                            We bring you the resources you need to explore 
-                            information on trees within berlin with a tree
-                            identification model for cuious minds.
+                            
+                           Explore trees within 12 Berlin districts. In each district you can find the most common species as well as
+                            the CO2 Absorption potential of the oldest and most common trees in that district. Want to identify a tree species 
+                            just from an image? We also present a tree
+                            identification model for curious minds.
                         </p>
                     </div>
                     <button className="get-started-btn"><a className="get-started-a"><Link to = '/home'> Get started!!</Link></a></button>

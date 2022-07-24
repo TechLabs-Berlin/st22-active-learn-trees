@@ -11,7 +11,7 @@ return(
       <Navbar />
       <div className="">
                             <div className="about-page-back">
-                            <Link to = '/home'> <a className="navbar-brand">Back</a></Link>
+                            <Link to = '/district'> <a className="navbar-brand">Back</a></Link>
                             </div>
               </div>
       <AppLogo />
@@ -29,7 +29,7 @@ return(
              <District8Carousel />
             </div>
       </div>
-      <h1 className="second-header">Information</h1>
+      <h1 className="second-header">Marzahn-Hellersdorf</h1>
 
 
       <div className="info-section">
@@ -101,16 +101,11 @@ return(
             <div>
                 <h2>CO2 absorption</h2>
                 <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
-                   <br></br> Carbon stored= half of the dry weight of the tree(dry weight/2).
-           
-                    <br></br>CO2 = thanks to molar mass ratios, we can break CO2 down and find it take 3.67kg
-                     <br></br>of CO2 to create 1kg of Carbon in the tree. That's because carbon has a molar mass of 12 
-                     <br></br>and oxygen 16. Combined as CO2 that's 44. And 44/12 = 3.67.          <br></br>Water(humidity)=50% of the total tree<br></br>
-                     
-                     CO2 absorption per year = Weight of Carbon stored * 3.67. 
-                    
-
-
+                   <br></br>Carbon stored= dry weight/2.
+                     <br></br>CO2 =  3.67kg(molar mass)
+                    <br></br>CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                     <br></br>CO2 absorption in total= CO2 absorption per year* Age
+                  
                 </p>
             <table>
                 <tr>

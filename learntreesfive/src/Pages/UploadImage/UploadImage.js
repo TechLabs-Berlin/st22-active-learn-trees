@@ -12,9 +12,9 @@ let model;
 class UploadImage extends Component {
     
     async loadModel() {
-        model = await tf.loadLayersModel('https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json');
+        model = await tf.loadLayersModel('https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/ai-model/model.json');
         console.log("model=" + model);
-        const classifier_json = new URL('https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json');
+        const classifier_json = new URL('https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/ai-model/class_definitions.json');
         const response = await fetch(classifier_json);
         // console.log(names);
         return  await response.json();
@@ -104,11 +104,11 @@ class UploadImage extends Component {
 
 
                     <div className="info-section">
-                            <div class="ui black left aligned inverted segment">
+                            <div class="ui left aligned ">
                                 <h2> Name :</h2>
                                 <h3 id="caption"></h3>
                             </div>
-                            <div className="ui black left aligned inverted segment">
+                            <div className="ui left aligned ">
                                 <h2> Certainity :</h2>
                                 <h3 id="caption1"></h3>
                             </div>

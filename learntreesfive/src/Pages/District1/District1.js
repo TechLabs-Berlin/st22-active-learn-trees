@@ -13,7 +13,7 @@ return(
       <Navbar />
       <div className="">
                             <div className="about-page-back">
-                            <Link to = '/home'> <a className="navbar-brand">Back</a></Link>
+                            <Link to = '/district'> <a className="navbar-brand">Back</a></Link>
                             </div>
               </div>
       <AppLogo />
@@ -33,21 +33,21 @@ return(
                  <District1Carousel />
             </div>
       </div>
-      <h1 className="second-header">Information</h1>
+      <h1 className="second-header">Mitte</h1>
 
 
        <div className="info-section">
             <div class="ui black left aligned">
                 
                 <p className="description">
-                    The district has a total area of 103 sq/km and approximately 413,335 inhabitants. <br>
-                    </br>the top 10 tree species within the district are: <p className="classification">
-                    Tilia cordata, Fraxinus excelsoir, Acer pseudoplatanus,<br></br>
-                    Plantunus acerifolia, Tilia europaea, Tilia vulgaris, <br></br>Aesculus hippocastanum, Tilia euchlora,
+                    The district has a total area of 103 sq/km and approximately 413,335 inhabitants. 
+                    the top 10 tree species within the district are: <p className="classification">
+                    Tilia cordata, Fraxinus excelsoir, Acer pseudoplatanus,
+                    Plantunus acerifolia, Tilia europaea, Tilia vulgaris, Aesculus hippocastanum, Tilia euchlora,
                     Tilia platyphyllos.</p>
                 </p>
                 <p className="description1">
-                    The top 10 streets with the most trees are: <p className="classification">Seestraße, <br></br>Osler straße, Brunnenstraße, straße des 17. juni, Nordufer, Reinickendorfer staße, <br></br>Müllerstaße, Alt-Moabit, Unter den Linen and Bethaniendamm </p>
+                    The top 10 streets with the most trees are: <p className="classification">Seestraße, Osler straße, Brunnenstraße, straße des 17. juni, <br></br> Nordufer, Reinickendorfer staße, Müllerstaße, Alt-Moabit,<br></br> Unter den Linen and Bethaniendamm </p>
                 </p>
             </div>
                     
@@ -101,16 +101,11 @@ return(
             <div>
                 <h2>CO2 absorption</h2>
                 <p className="tab1"> Dry weight= circumference conversion taking the closest value on the graph.
-                   <br></br> Carbon stored= half of the dry weight of the tree(dry weight/2).
-           
-                    <br></br>CO2 = thanks to molar mass ratios, we can break CO2 down and find it take 3.67kg
-                     <br></br>of CO2 to create 1kg of Carbon in the tree. That's because carbon has a molar mass of 12 
-                     <br></br>and oxygen 16. Combined as CO2 that's 44. And 44/12 = 3.67.          <br></br>Water(humidity)=50% of the total tree<br></br>
-                     
-                     CO2 absorption per year = Weight of Carbon stored * 3.67. 
-                    
-
-
+                   <br></br>Carbon stored= dry weight/2.
+                     <br></br>CO2 =  3.67kg(molar mass)
+                    <br></br>CO2 absorption per year = Weight of Carbon stored * 3.67. 
+                     <br></br>CO2 absorption in total= CO2 absorption per year* Age
+                  
                 </p>
             <table>
                 <tr>

@@ -30,8 +30,10 @@ const Home = () => {
             <div className="container1">  
                   <div>
                       <p className="para">
+                        {/*
                       It is an application that allows you to identify Leaves simply by uploaading pictures with your smartphone or Laptop.
                       It has the ability to filter recognized species by family. 
+  */}
                       {/* The more visually clear picture you upload about the leave you are observing, 
                       the more accurate the identification will be. There are indeed many plants that look alike from 
                       afar and it is sometimes small details that distinguish two species of the same genus.
@@ -43,7 +45,7 @@ const Home = () => {
 
                 <div className="Two-Buttons">
                   <div className="para-with-button">
-                      <p className="home-page-para1">Explore Trees with in all districts of berlin</p>
+                      <p className="home-page-para1">Explore Trees within all districts of berlin</p>
                       <button className="home-button"><Link to = '/district'> Districts</Link></button>
                   </div>
                   <div className="para-with-button">

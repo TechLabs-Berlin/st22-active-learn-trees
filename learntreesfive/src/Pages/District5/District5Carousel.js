@@ -18,7 +18,7 @@ return(
                         alt="First slide"
                         />
                         <Carousel.Caption>
-                        <h1 className="district-main-header">Spandau</h1>
+                        <h1 className="district-main-header"></h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -27,9 +27,7 @@ return(
                         src= {Pankow2}
                         alt="Second slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Spandau</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -37,9 +35,7 @@ return(
                         src= {Pankow3}
                         alt="Third slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Spandau</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -47,9 +43,7 @@ return(
                         src= {Pankow4}
                         alt="Third slide"
                         />
-                        <Carousel.Caption>
-                        <h1 className="district-main-header">Spandau</h1>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
                 </Carousel>
            

@@ -9,7 +9,7 @@ const ExploreTreesWithinSteglitz = () => {
         <div className="page-body">
             <div className="">
                           <div className="about-page-back">
-                          <Link to = '/home'> <a className="navbar-brand">Back</a></Link>
+                          <Link to = '/district12'> <a className="navbar-brand">Back</a></Link>
                           </div>
             </div>
             <div>

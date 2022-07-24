@@ -9,7 +9,7 @@ const ExploreTreesWithinLichtenberg = () => {
     <div className='page-body'>
       <div className=''>
         <div className="about-page-back">
-          <link to = '/home'> <a className='navbar-brand'>Back</a></link>
+          <link to = '/district7'> <a className='navbar-brand'>Back</a></link>
 
         </div>
 
