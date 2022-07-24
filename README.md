@@ -43,23 +43,6 @@ To run the React project.
 $ npm start.
 ```
 
-
-
-
-## DS: Python libraries:
-```
-XX==2.7.0
-
-```
-
-
-
-## AI: Pyhton libraries:
-```
-XX==2.7.0
-
-```
-
 ## Dependencies
 
 ### Node.js
@@ -74,11 +57,7 @@ XX==2.7.0
 
 
 
-### Python (PLEASE AJUST)
-DS: (PLEASE AJUST)
-
-
-AI: (PLEASE AJUST)
+### Python 
 - [Pytorch](https://pytorch.org/)
 - [TensorFlow](https://www.tensorflow.org/)
 - [Keras](https://keras.io/)
