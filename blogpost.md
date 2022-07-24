@@ -70,6 +70,9 @@ The overall development process is illustrated below. It should also be mentione
     ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte.png)
     ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte_info.png)
     ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte_Co2.png)
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte_Species.png)
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Tila.png)
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/ExternalLink.png)
 
 
 ##  Data science
