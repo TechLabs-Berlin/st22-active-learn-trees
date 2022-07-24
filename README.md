@@ -60,9 +60,9 @@ XX==2.7.0
 
 ```
 
-## Dependencies (PLEASE AJUST)
+## Dependencies
 
-### Node.js (PLEASE AJUST)
+### Node.js
 
 
 ### JavaScript/CSS
@@ -81,10 +81,10 @@ DS: (PLEASE AJUST)
 AI: (PLEASE AJUST)
 - [Pytorch](https://pytorch.org/)
 - [TensorFlow](https://www.tensorflow.org/)
-- [Keras](https://keras.io/))
+- [Keras](https://keras.io/)
 
 
-## Authors (PLEASE AJUST)
+## Authors
 
 UX
 - Ese ([GitHub](https://github.com/Ese101))
