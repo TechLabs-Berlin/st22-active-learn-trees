@@ -14,10 +14,8 @@
 - [DS scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DS-district-analysis)
 - [AI scripts](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network)
 
-## UX: Design files
 
-
-## WD:  Steps to run the prototype locally
+## Steps to run the prototype locally (WD)
 
 To run the web application locally you need to perform three main steps:
 
@@ -47,15 +45,11 @@ $ npm start.
 
 ### Node.js
 
-
 ### JavaScript/CSS
 - [React-js](https://reactjs.org/docs/getting-started.html)
 - [VS-Code](https://code.visualstudio.com/)
 - [Semantic-UI](https://semantic-ui.com/)
 - [Bootstrap](https://getbootstrap.com/)
-
-
-
 
 ### Python 
 - [Pytorch](https://pytorch.org/)
