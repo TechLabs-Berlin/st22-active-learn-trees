@@ -1,57 +1,75 @@
 # Blogpost Trees
 
+The Green Monitor website is the result of a fruitful collaboration of UX Design, Web Development, Data Science and Deep Learning. The solution showcases the positive environmental impact of trees in Berlin and raises the users' awareness about the trees surrounding them. Our application allows the user to gain more information about trees in their selected district of Berlin and to identify trees simply by uploading pictures with their smartphone or Laptop. The application aims to facilitate users in Berlin to gain knowledge about the trees around them and encourages them to make Berlin greener together.
 
 ### Our Path: From idea to application
 
-Original idea: 
-- The CO2 absorption of trees depends on their species, age and location.
-- Learn about and predict the CO2 absorption of trees in Berlin
+Our original idea was based around the environmental impact of CO2 absorption of trees, which depends on their species, age and location. We wanted to learn about and predict the CO2 absorption of trees in Berlin.
 
-Our application will allow the user
-- to gain more information about trees in their selected district of Berlin.
+Our application allows the user
+- to gain more information about trees in the twelve districts of Berlin. 
+- to understand the oldest and the highest tree in each districts of Berlin.
+- to know the amount of CO2 each oldest and highest tree species in each district can absorb per year and in total life. 
 - to identify trees simply by uploading pictures with their smartphone or Laptop.
 
-Vision: Facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
+Our Vision is to facilitate people in Berlin to gain more knowledge about the trees surrounding them and on the trees impact on the environment in terms of CO2 absorption.
 
-TODO: Add logo
 <p align="center">
-    <img alt="Trees logo" src="" width="400" />
-</p>
+    <img alt="Logo" src="https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/App_logo..png" width="200"/>
+  </P>
+
 
 ### UX: Define the macro-design direction
-(PLEASE AJUST TEXT)
-Progress so far:
-Presented the first design sketch with team and recorded rough ideas.
-Analysed user flow.
-Transformed initial sketch into an interactive wireframe.
-Next steps:
-Prepare high fidelity prototype for testing.
-Present all possible details of structure and the prototype to team
-Create a LOGO for the product.
-Liaise with the WD track to determine the final design draft.
+Upon liasing with the WD track, the UX presented the first design sketch (created via Sketch) with team and recorded rough ideas. UX research was futher carried out on the target audience ("Whose problem will the app solve"?) and personas were collected though with some challenges as our product is quite unique and a thorough understanding of its purpose was required. After defining the design direction, the initial sketch was futher adjusted into a low fidelity wireframe and then developed into an interactive prototyp with figma. Details of structure and the prototype was presented to team while making adjustments were necessary.
 
-
-(Add personas link)
-<p align="center">
-    <img alt="Personas" src="g" width="600" />
+<p>Personas</p>
+<p>
+    <img alt="Personas" src="https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/Personas.jpg"/>
 </p>
 
-(Add wireframe link)
+<p>High fidelity prototype
+</p>
+
 <p align="center">
-    <img alt="Early wireframes" src="" width="600" />
+    <img alt="High fidelity Prototype" src="https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/UX-branch/High%20fidelity%20prototype.png" width="800" />
 </p>
 
 
 ## Web development
-So basically we were informed to develope the app on React, which was introduced to us not long ago, so we had to face handsome amount of difficulties which on the other hand made us learn new things vey quickly, on React the code is components based, which makes it cleaner and reuasable. We were able to move changing data from component to component without many nasty hiccups. Again, the introduction to these technologies meant that we had to learn a great deal more than what was originally offered in the academic phase, but its outcome was immeasurably useful for us emerging developers.</p>
+We were informed to develope the app on React, which was introduced to us not long ago, so we had to face handsome amount of difficulties which on the other hand made us learn new things vey quickly, on React the code is components based, which makes it cleaner and reuasable. We were able to move changing data from component to component without many nasty hiccups. Again, the introduction to these technologies meant that we had to learn a great deal more than what was originally offered in the academic phase, but its outcome was immeasurably useful for us emerging developers.
+
+ - Web Dev Team developed the web based on the prototype designed by UX.
+-Bootstrapped fundamental architecture.
+-API Integrations(BackEnd functionalities on the image Upload part).
+-Collected data from DS and “hard coded” it to have the top ten trees species,streets with most trees, the oldest and highest tree in each districts .
+-Used google to search for how to calculate CO2 absorption with Species, Age,circumference, dry weight, CO2 absorption per year and in total for each districts.
+-Each German name species has been provided with the Scientific Name and an image of the species. 
+-Created an external link that will help users for more information.
+-React router is used to direct to different pages based on the request.
+</p>
 
 ### Back-End
 
-<p> As both WD techies chose the front-end course during the academic phase, suddenly being confronted with back-end logic and challenges was certainly a challenge and required adaptability and time-investment. Luckily, under the guidance of the experienced mentors, back-end difficulties were overcome and its logic proved to be less of a frightening obstacle to us, the front-end techies. </p>
+<p> As both WD techies chose the front-end course during the academic phase, suddenly being confronted with back-end logic and challenges was certainly a challenge and required adaptability and time-investment. We were able to connect an API from AI tract to the the backend of the image upload part.
+concerning  the general backend of the app, we were unable to connect the data from DS tract because the API was not ready yet.</p>
 
 The overall development process is illustrated below. It should also be mentioned that the tasks were not always worked on one after the other, but that work was often done in parallel on different challenges. Team WD decided to split the work based on interests and understanding of the code. This proved to be a successful decision in team communication in order to reach the ambitious goals. Through careful coordination, trust in each other’s abilities, and a great deal of motivation, challenges were overcome. Although some bugs remain, some functions are still merely placeholders, and the usability is rather limited due to the lack of responsiveness, the progress we made in such a short time was so unimaginable at the beginning of this bootcamp that this project for us in the WD track can only be considered a success. A great learning experience that we will bring to all pending future projects.  <br><br>
-
-![image](https://yoshirodigital.com/wp-content/uploads/2020/08/Website-Design-Blueprint-and-the-Development-Process.jpg)
+    -- Get Started Page
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/GetStarted.png)
+    -- Homepage
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Homepage.png)
+    -- About Page
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/About.png)
+    -- Image Upload Page
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/ImageUpload.png)
+    -- Districts Page
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Districts.png)
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Districts_2.png)
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Districts_3.png)
+    -- District Mitte Data
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte.png)
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte_info.png)
+    ![image](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/webdev-branch/learntreesfive/App_Screenshots/Mitte_Co2.png)
 
 
 ##  Data science
@@ -114,7 +132,14 @@ The machine learning algorithm was trained to predict the age. First, the trees 
 
 
 ##  AI/Deep Learning
-(PLEASE ADD TEXT)
+
+The Deep Learning Track was given the task to deevelop a model that would allow for tree identification based on a picture.  
+This originates from the idea to combine species and age of tree to estimate their CO2 absorption. But for this knowing the species of a tree is crucial and we wanted to aid this by allowing the user to identify a tree based on a picture. For the improvement of the training dataset we started implementing active learning and for the improvement of the neural network transfer learning.
+
+![image](https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step1-exploring-datasets/leaves.png)
+
+For further details please refer to [DL-neural-network](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network). 
 
 # Final remarks
 
+UX: " Being the only UX techie in team made me quite skeptical at first but I was more than enthusiatic to jump on the challenge! Overall, it was a challenging, yet educative experience, having to work with a team of dedicated individuals and to explore act of designing!"
