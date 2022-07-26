@@ -30,14 +30,21 @@ Now integrated by the WD team with React.
 
 ## Part B) Refinement: Defining a proper set up for improvement of our image dataset and image classification model
 
-Astrain leaves only contains 5 classes however berlin streets have 63 different spices .For better generalization we decided to decrease the number of trees to only identify the most common types with numbers > 4000. this resulted 16 different types.
+Astrain leaves only contains 5 classes however berlin streets have 63 different spices . For better generalization we decided to decrease the number of trees to only identify the most common types with numbers > 4000. this resulted in 16 different types.
+
+
 
 ### Step 3: Creation of image dataset by downloading images from Bing and manually sort/labeling
+Based on a previous analysis (see step 0) we focus on the most common trees in Berlin ( > 4000 trees).
+Based on comparing different existing plant datasets (Step 1) we decided to create our own dataset by performing a bing image download.
+We create here an image dataset of leaves of these most common trees in Berlin.
 
 - a) berlin databank of trees:
 berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','FRAXINUS','PLATANUS','POPULUS', 'PRUNUS','QUERCUS','ROBINIA','SORBUS','TILIA', 'ULMUS']
 - b) Adding genus/family present in Austrian leave set
 'FAGUS'
+
+`berlin_trees = ['ACER leaves', 'AESCULUS leaves','BETULA leaves', 'CARPINUS leaves', 'CORYLUS leaves','CRATAEGUS leaves','FRAXINUS leaves','PLATANUS leaves','POPULUS leaves', 'PRUNUS leaves','QUERCUS leaves','ROBINIA leaves','SORBUS leaves','TILIA leaves', 'ULMUS leaves', 'Fagus leaves']`
 
 `https://colab.research.google.com/drive/1c0vBWWTz0ssaHL8FHeCLQZW-Tfz2kP4x?usp=sharing`
 
