@@ -33,10 +33,15 @@ Model training and downloading : https://colab.research.google.com/drive/1jMnSYG
 
 Model can be found here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json
 Classifier can be found here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json
-Check out the very simple leave classifying model hosted on netlify:
-https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html
+Check out the very simple leave classifying model hosted on netlify: https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html
 
-Now integrated by the WD team with React.
+
+The final model weights can be found here: https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main//DL-neural-network/ai-model
+The Classifier can be found here: https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/ai-model/class_definitions.json
+The browser side implementation of the model is realised in [this html page](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step2-browserside-model-integration/tree_identifying-update-links.html) which shows how to upload an image, access the modelweights, classify the image and return the results, this api is now integrated by the WD team with React in our final web application.
+When downloading the model weights with tensorflow.js only a limited type of NN layers is allowed, therefore the current model on web application is a very striped down version of the inital NN and therefore not giving accurate predictions. At this point it was more important to identify a solution to access the model on the browser side, without the need to fully set up a backend. 
+
+The NN model will be improved in the following steps but still experimentally in a google colab environment. To be able to deploy an updated NN the difficutlties with tensorflow.js would need to be overcome in the future.
 
 ## Part B) Refinement: Defining a proper set up for improvement of our image dataset and image classification model
 
