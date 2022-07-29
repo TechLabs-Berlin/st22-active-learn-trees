@@ -9,6 +9,9 @@ And DL/AI learning: implementing transfer learning and active learning
 - a) berlin databank of trees:
 berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','FRAXINUS','PLATANUS','POPULUS', 'PRUNUS','QUERCUS','ROBINIA','SORBUS','TILIA', 'ULMUS']
 
+- [Colab: (Step 0) - Identification of most common tree species in Berlin]()  (update link)
+- [Github: (Step 0) - Identification of most common tree species in Berlin]()  (update link)
+
 `https://colab.research.google.com/drive/1rKc-JRlbbI8miFOavy8Obr3mTMypYQCp?usp=sharing`
 
 #### Step 1: Identification of suitable image dataset for tree identification
@@ -16,10 +19,17 @@ berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','
 - Plantnet
 - Bing image download
 --> output file/google colab with text, code, results and conclusion
+
+- [Colab: (Step 1) - Identification of suitable image dataset for tree identification]()  (update link)
+- [Github: (Step 1) - Identification of suitable image dataset for tree identification]()  (update link)
+
 #### Step 2: Initial setup of a software pipeline for deployment of a model that can be used in a browser
 --> Aim building a pipeline for integration of the model into Web application on Trees website
 
-Model training and downloading : `https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing`
+Model training and downloading : https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing
+
+- [Colab: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser](https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing)  (update link)
+- [Github: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser]()  (update link)
 
 Model can be found here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json
 Classifier can be found here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json
@@ -57,9 +67,16 @@ Intial tree dataset can be found here: [trees-bing-Berlin-test12](https://github
 1) species in Berlin --> image download via bing focused on LEAVES OF SPECIES
 future maybe: extend the image dataset to general images of trees and classify for large(very old and high circumference) tree vs small tree (young, saplings etc), no tree --> again image download via bing
 
+- [Colab: (Step 4) - Improving the dataset and model via Active learn using the python library superintend]()  (update link)
+- [Github: (Step 4) - Improving the dataset and model via Active learn using the python library superintend]()  (update link)
+
 `https://colab.research.google.com/drive/1z_KAdBDlJ_TOSmyEqYUveFJwREXI9Q8f?usp=sharing`
 
 ### Step 5: Deciding on and implementing the “best" CNN model
+
+- [Colab: (Step 5) - Deciding on and implementing the “best" CNN model]()  (update link)
+- [Github: (Step 5) - Deciding on and implementing the “best" CNN model]()  (update link)
+- 
 - we implemented two different types of CNN. one was a per-trained model using [inaturalist](https://tfhub.dev/google/inaturalist/inception_v3/feature_vector/5) , while the other is self-made neural network.
 
   notes: 
