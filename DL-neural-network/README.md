@@ -1,10 +1,13 @@
 # Deep Learning Track - Development of tree identification model 
-All of this originates from the idea to combine species and age of tree to estimate CO2 absorption.
-And DL/AI learning: implementing transfer learning and active learning
+The Deep Learning Track was given the task to deevelop a model that would allow for tree identification based on a picture.
+This originates from the idea to combine species and age of tree to estimate their CO2 absorption. But for this knowing the species of a tree is crucial and we wanted to aid this by allowing the user to identify a tree based on a picture. For the improvement of the training dataset we started implementing active learning and for the improvement of the neural network transfer learning.
+
+<p align="center">
+    <img alt="Project overview" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/trees-project-outline.png" width="600" />
+</p>
 
 
-## Project outline of CNN for tree identification
-## Part A) Set-up
+### Part A) **Inital** exploration of image datasets, testing of possible CNN models and implementation in the web application.
 #### Step 0: Identification of most common tree species in Berlin 
 - a) berlin databank of trees:
 berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','FRAXINUS','PLATANUS','POPULUS', 'PRUNUS','QUERCUS','ROBINIA','SORBUS','TILIA', 'ULMUS']
@@ -16,7 +19,7 @@ berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','
 
 #### Step 1: Identification of suitable image dataset for tree identification
 
-There are various plant recognition apps available ([overview](https://backgarden.org/tree-identification-apps/) )like [Pl@ntNet](https://plantnet.org/) or [google image search](https://www.google.com/imghp?hl=en) , but unfortunately their image datasets are not easily publicly available. 
+There are various plant recognition apps available ([overview](https://backgarden.org/tree-identification-apps/) )like [Pl@ntNet](https://plantnet.org/) or [google image search](https://www.google.com/imghp?hl=en), but unfortunately their image datasets are not easily publicly available. 
 
 We identified two curated plant image datasets that we explored further and trained some intial neural network models: 
 
@@ -25,26 +28,28 @@ We identified two curated plant image datasets that we explored further and trai
 
 - [Colab: (Step_1)_Exploring_image_dataset_Austrian-Leaves](https://colab.research.google.com/drive/15h5ILbqYFrsKk3sYKz5-e4Ln4zJs7HuS?usp=sharing)
 - [Github: (Step_1)_Exploring_image_dataset_Austrian-Leaves](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step1-exploring-datasets/(Step_1)_Exploring_image_dataset_Austrian_Leaves.ipynb) (update link to main)
-- Here we explored trainig a from scratch build sequential CNN (with MaxPooling2D and data augmentation) and and a pretrained model using Fast AI (resnet18). Unfortunately any trained model on this leave data set required images with a neutral background, and is limited to the 5 tree species represented in the training dataset.
+<p align="center">
+    <img alt="Austrian Tree dataset" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step1-exploring-datasets/leaves.png" width="220" />
+</p>
+Here we explored trainig a from scratch build sequential CNN (with MaxPooling2D and data augmentation) and and a pretrained model using Fast AI (resnet18). Unfortunately any trained model on this leave data set required images with a neutral background, and is limited to the 5 tree species represented in the training dataset.
+
+
+
 
 2. The publicly available **[Pl@ntNet](https://plantnet.org/) image dataset** (31GB)  "Pl@ntNet-300K: a with high label ambiguity and a long-tailed distribution". [Dataset](https://zenodo.org/record/4726653), [Github- repository](https://github.com/plantnet/PlantNet-300K/) This dataset can be used for testing of very developed models and plant species that were not the scope of our project.
+<p align="center">
+    <img alt="Pl@ntNet300K" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step1-exploring-datasets/plantnet300.png" width="220" />
+</p>
 - [Colab: (Step_1)_Exploring_image_dataset_PlanetNet300](https://colab.research.google.com/drive/1qevPr0FedxPefi2OcmymUWOoFzhus9Lu?usp=sharing)
-- [Github: (Step_1)_Exploring_image_dataset_PlanetNet300](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/AI/DL-extension/DL-neural-network/Step1-exploring-datasets/(Step_1)_Exploring_image_dataset_PlanetNet300.ipynb) (update link to main)
+- [Github: (Step_1)_Exploring_image_dataset_PlanetNet300](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step1-exploring-datasets/(Step_1)_Exploring_image_dataset_PlanetNet300.ipynb)
 
 Based on this we decided we would work further with leave images and limit our training datasets on leaves of images that were present in Berlin. We decided to create (**Step 3**) our own image dataset with [Bing](https://www.bing.com/) image search and curate/improve this dataset with relabeling (**Step 4**) as part of our model improvement via active learning.
 
-- [Colab: (Step 1) - Identification of suitable image dataset for tree identification](https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing)  (update link)
-- [Github: (Step 1) - Identification of suitable image dataset for tree identification]()  (update link)
-
 #### Step 2: Initial setup of a software pipeline for deployment of a model that can be used in a browser
---> Aim building a pipeline for integration of the model into Web application on Trees website
+Our aim was to identify a way to integrate our model into the web application build by the rest of the team. The exploration of downloading an intial model with tensorflow.js resulted in an intial html page accessing the [model weights](https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json) and [categories](https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json), which allows for browser side classification. This can be found hosted on netlify: (https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html).
 
-Model training and downloading : https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing
-
-- [Colab: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser](https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing)  (update link)
-- [Github: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser]()  (update link)
-
-The exploration of downloading an intial model with tensorflow.js resulted in an intial  html page accessing the [model weights](https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json) and [categories](https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json), which allows for browser side classification. This can be found hosted on netlify: (https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html).
+- [Colab: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser](https://colab.research.google.com/drive/1sdLsT-1BegKSGNcIBnlpglhNsNsGFdKu?usp=sharing)
+- [Github: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step2-browserside-model-integration/(Step_2)_Initial_setup_of_a_software_pipeline_for_deployment_of_a_model_that_can_be_used_in_a_browser.ipynb)
 
 
 The final model weights ([DL-neural-network/ai-model](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main//DL-neural-network/ai-model)), and a json file with the categories ([DL-neural-network/ai-model/class_definitions.json](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/ai-model/class_definitions.json)) are stored on github and can be  accessed for browser side classification. 
@@ -53,11 +58,11 @@ When downloading the model weights with tensorflow.js not all types of NN layers
 
 The NN model will be improved in the following steps but still experimentally in a google colab environment. To be able to deploy an updated NN the difficutlties with tensorflow.js would need to be overcome in the future.
 
-## Part B) Refinement: Defining a proper set up for improvement of our image dataset and image classification model
+
+
+### Part B) Refinement of the image dataset and image classification model
 
 Astrain leaves only contains 5 classes however berlin streets have 63 different spices . For better generalization we decided to decrease the number of trees to only identify the most common types with numbers > 4000. this resulted in 16 different types.
-
-
 
 ### Step 3: Creation of image dataset by downloading images from Bing and manually sort/labeling
 Based on a previous analysis (see step 0) we focus on the most common trees in Berlin ( > 4000 trees).
