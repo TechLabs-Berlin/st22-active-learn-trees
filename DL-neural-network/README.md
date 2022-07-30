@@ -25,6 +25,7 @@ We identified two curated plant image datasets that we explored further and trai
 
 - [Colab: (Step_1)_Exploring_image_dataset_Austrian-Leaves]() (update link)
 - [Github: (Step_1)_Exploring_image_dataset_Austrian-Leaves]() (update link)
+- Here we explored buidling a sequential CNN, from scratch, adding augmentation and improving layers 
 
 2. The publicly available **[Pl@ntNet](https://plantnet.org/) image dataset** (31GB)  "Pl@ntNet-300K: a with high label ambiguity and a long-tailed distribution". [Dataset](https://zenodo.org/record/4726653), [Github- repository](https://github.com/plantnet/PlantNet-300K/) This dataset can be used for testing of very developed models and plant species that were not the scope of our project.
 - [Colab: (Step_1)_Exploring_image_dataset_PlanetNet300](https://colab.research.google.com/drive/1qevPr0FedxPefi2OcmymUWOoFzhus9Lu?usp=sharing)
