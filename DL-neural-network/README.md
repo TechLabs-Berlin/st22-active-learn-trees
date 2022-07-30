@@ -23,9 +23,9 @@ We identified two curated plant image datasets that we explored further and trai
 1. An **Austrian Tree dataset** which contains images of leaves from 5 species.
 [Tree Species Identification - Paper](https://www.researchgate.net/publication/323550122_Tree_Species_Identification_from_Bark_Images_Using_Convolutional_Neural_Networks) [Dataset](https://zenodo.org/record/4446955). 
 
-- [Colab: (Step_1)_Exploring_image_dataset_Austrian-Leaves]() (update link)
+- [Colab: (Step_1)_Exploring_image_dataset_Austrian-Leaves](https://colab.research.google.com/drive/15h5ILbqYFrsKk3sYKz5-e4Ln4zJs7HuS?usp=sharing)
 - [Github: (Step_1)_Exploring_image_dataset_Austrian-Leaves]() (update link)
-- Here we explored buidling a sequential CNN, from scratch, adding augmentation and improving layers 
+- Here we explored trainig a from scratch build sequential CNN (with MaxPooling2D and data augmentation) and and a pretrained model using Fast AI (resnet18). Unfortunately any trained model on this leave data set required images with a neutral background, and is limited to the 5 tree species represented in the training dataset.
 
 2. The publicly available **[Pl@ntNet](https://plantnet.org/) image dataset** (31GB)  "Pl@ntNet-300K: a with high label ambiguity and a long-tailed distribution". [Dataset](https://zenodo.org/record/4726653), [Github- repository](https://github.com/plantnet/PlantNet-300K/) This dataset can be used for testing of very developed models and plant species that were not the scope of our project.
 - [Colab: (Step_1)_Exploring_image_dataset_PlanetNet300](https://colab.research.google.com/drive/1qevPr0FedxPefi2OcmymUWOoFzhus9Lu?usp=sharing)
