@@ -28,7 +28,7 @@ We identified two curated plant image datasets that we explored further and trai
 
 2. The publicly available **[Pl@ntNet](https://plantnet.org/) image dataset** (31GB)  "Pl@ntNet-300K: a with high label ambiguity and a long-tailed distribution". [Dataset](https://zenodo.org/record/4726653), [Github- repository](https://github.com/plantnet/PlantNet-300K/) This dataset can be used for testing of very developed models and plant species that were not the scope of our project.
 - [Colab: (Step_1)_Exploring_image_dataset_PlanetNet300](https://colab.research.google.com/drive/1qevPr0FedxPefi2OcmymUWOoFzhus9Lu?usp=sharing)
-- [Github: (Step_1)_Exploring_image_dataset_PlanetNet300](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/AI/DL-extension/DL-neural-network/Step1-exploring-datasets/(Step_2)_Exploring_image_dataset_PlanetNet300.ipynb) (update link to main)
+- [Github: (Step_1)_Exploring_image_dataset_PlanetNet300](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/AI/DL-extension/DL-neural-network/Step1-exploring-datasets/(Step_1)_Exploring_image_dataset_PlanetNet300.ipynb) (update link to main)
 
 Based on this we decided we would work further with leave images and limit our training datasets on leaves of images that were present in Berlin. We decided to create (**Step 3**) our own image dataset with [Bing](https://www.bing.com/) image search and curate/improve this dataset with relabeling (**Step 4**) as part of our model improvement via active learning.
 
