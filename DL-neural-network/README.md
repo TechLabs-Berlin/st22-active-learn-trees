@@ -83,7 +83,7 @@ This intial tree dataset can be found here: [trees-bing-Berlin-test12](https://g
 ### Step 4: Improving the dataset and model via Active learn using the python library superintend
 
 <p align="center">
-    <img alt="Active Learning loop" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step4-Active-Learning/Activelearn-Researchgate.png" width="220" />
+    <img alt="Active Learning loop" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/Step4-Active-Learning/Activelearn-Researchgate.png" width="220" />
 </p>
 [Active learning loop - Image source](https://www.researchgate.net/figure/The-process-of-active-learning-Ambiguous-uncertain-samples-are-selected-for-oracle-to_fig1_326264220)
 
