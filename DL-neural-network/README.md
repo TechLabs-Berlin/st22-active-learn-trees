@@ -81,6 +81,12 @@ This intial tree dataset can be found here: [trees-bing-Berlin-test12](https://g
 
 
 ### Step 4: Improving the dataset and model via Active learn using the python library superintend
+
+<p align="center">
+    <img alt="Active Learning loop" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step4-Active-Learning/Activelearn-Researchgate.png" width="220" />
+</p>
+[Active learning loop - Image source](https://www.researchgate.net/figure/The-process-of-active-learning-Ambiguous-uncertain-samples-are-selected-for-oracle-to_fig1_326264220)
+
 1) species in Berlin --> image download via bing focused on LEAVES OF SPECIES
 future maybe: extend the image dataset to general images of trees and classify for large(very old and high circumference) tree vs small tree (young, saplings etc), no tree --> again image download via bing
 
@@ -107,6 +113,13 @@ Our technical setup overview:
 <p align="center">
     <img alt="Technical statistics" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/Techstats.png" width="600" />
 </p>
+
+- [Pytorch](https://pytorch.org/)
+- [FastAI](https://www.fast.ai/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [Keras](https://keras.io/)
+- [Superintendent](https://superintendent.readthedocs.io/en/latest/active-learning.html) (Active learning)
+
 
 
   
