@@ -27,7 +27,7 @@ We identified two curated plant image datasets that we explored further:
 
 Based on this we decided we would work further with leave images and limit our training datasets on leaves of images that were present in Berlin. We decided to create (**Step 3**) our own image dataset with [Bing](https://www.bing.com/) image search and curate/improve this dataset with relabeling (**Step 4**) as part of our model improvement via active learning.
 
-- [Colab: (Step 1) - Identification of suitable image dataset for tree identification]()  (update link)
+- [Colab: (Step 1) - Identification of suitable image dataset for tree identification](https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing)  (update link)
 - [Github: (Step 1) - Identification of suitable image dataset for tree identification]()  (update link)
 
 #### Step 2: Initial setup of a software pipeline for deployment of a model that can be used in a browser
@@ -38,15 +38,13 @@ Model training and downloading : https://colab.research.google.com/drive/1jMnSYG
 - [Colab: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser](https://colab.research.google.com/drive/1jMnSYGrCIzSF18Y3UtdnWUTGMC2u-4ds?usp=sharing)  (update link)
 - [Github: (Step 2) -  Initial setup of a software pipeline for deployment of a model that can be used in a browser]()  (update link)
 
-Model can be found here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json
-Classifier can be found here: https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json
-Check out the very simple leave classifying model hosted on netlify: https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html
+The exploration of downloading an intial model with tensorflow.js resulted in an intial  html page accessing the [model weights](https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/model.json) and [categories](https://raw.githubusercontent.com/Constifox/st22-active-learn-trees/main/ai-model/class_definitions.json), which allows for browser side classification. This can be found hosted on netlify: (https://famous-pegasus-8b90b9.netlify.app/tree_identifying.html).
 
 
-The final model weights can be found here: https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main//DL-neural-network/ai-model
-The Classifier can be found here: https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/ai-model/class_definitions.json
-The browser side implementation of the model is realised in [this html page](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step2-browserside-model-integration/tree_identifying-update-links.html) which shows how to upload an image, access the modelweights, classify the image and return the results, this api is now integrated by the WD team with React in our final web application.
-When downloading the model weights with tensorflow.js only a limited type of NN layers is allowed, therefore the current model on web application is a very striped down version of the inital NN and therefore not giving accurate predictions. At this point it was more important to identify a solution to access the model on the browser side, without the need to fully set up a backend. 
+The final model weights can be found [here - DL-neural-network/ai-model](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main//DL-neural-network/ai-model)
+The Categories/Classifier can be found [[here - DL-neural-network/ai-model/class_definitions.json](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/ai-model/class_definitions.json) ]
+The browser side implementation of the model is realised in an [html page -  (tree_identifying-update-links.html) ](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step2-browserside-model-integration/tree_identifying-update-links.html) which shows how to upload an image, access the modelweights, classify the image and return the results, this api is now integrated by the WD team with React in our final web application.
+When downloading the model weights with tensorflow.js not all types of NN layers are supproted, therefore the current model on web application is a very striped down version of the inital NN and therefore not giving accurate predictions. This should definetly be  improved but we thought it was more important to identify a solution to access the model on the browser side, without the need to fully set up a backend. 
 
 The NN model will be improved in the following steps but still experimentally in a google colab environment. To be able to deploy an updated NN the difficutlties with tensorflow.js would need to be overcome in the future.
 
