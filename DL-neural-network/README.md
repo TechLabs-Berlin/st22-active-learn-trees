@@ -18,10 +18,12 @@ berlin_trees = ['ACER', 'AESCULUS','BETULA', 'CARPINUS', 'CORYLUS','CRATAEGUS','
 
 There are various plant recognition apps available ([overview](https://backgarden.org/tree-identification-apps/) )like [Pl@ntNet](https://plantnet.org/) or [google image search](https://www.google.com/imghp?hl=en) , but unfortunately their image datasets are not easily publicly available. 
 
-We identified two curated plant image datasets that we explored further: 1. An Austrian Tree dataset which contains images of leaves from 5 species.
+We identified two curated plant image datasets that we explored further: 
+
+1. An **Austrian Tree dataset** which contains images of leaves from 5 species.
 [Tree Species Identification - Paper](https://www.researchgate.net/publication/323550122_Tree_Species_Identification_from_Bark_Images_Using_Convolutional_Neural_Networks) [Dataset](https://zenodo.org/record/4446955). 
 
-And 2. the publicly available [Pl@ntNet](https://plantnet.org/) image dataset (31GB)  "Pl@ntNet-300K: a with high label ambiguity and a long-tailed distribution". [Dataset](https://zenodo.org/record/4726653), [Github- repository](https://github.com/plantnet/PlantNet-300K/) This dataset can be used for testing of very developed models and plant species that were not the scope of our project.
+2. The publicly available **[Pl@ntNet](https://plantnet.org/) image dataset** (31GB)  "Pl@ntNet-300K: a with high label ambiguity and a long-tailed distribution". [Dataset](https://zenodo.org/record/4726653), [Github- repository](https://github.com/plantnet/PlantNet-300K/) This dataset can be used for testing of very developed models and plant species that were not the scope of our project.
 
 Based on this we decided we would work further with leave images and limit our training datasets on leaves of images that were present in Berlin. We decided to create (**Step 3**) our own image dataset with [Bing](https://www.bing.com/) image search and curate/improve this dataset with relabeling (**Step 4**) as part of our model improvement via active learning.
 
