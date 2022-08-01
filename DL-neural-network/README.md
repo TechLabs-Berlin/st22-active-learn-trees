@@ -3,7 +3,7 @@ The Deep Learning Track was given the task to deevelop a model that would allow 
 This originates from the idea to combine species and age of tree to estimate their CO2 absorption. But for this knowing the species of a tree is crucial and we wanted to aid this by allowing the user to identify a tree based on a picture. For the improvement of the training dataset we started implementing active learning and for the improvement of the neural network transfer learning.
 
 <p align="center">
-    <img alt="Project overview" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/trees-project-outline.png" width="600" />
+    <img alt="Project overview" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/trees-project-outline.png" width="600" />
 </p>
 
 
@@ -75,13 +75,13 @@ Based on a previous analysis (see step 0) we focus on the most common trees in B
 Note: `'FAGUS'` was added as a genus/family present in Austrian leave set.
 
 <p align="center">
-    <img alt="Bing leaves images " src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/Step3-tree-images-dataset/Bing-images.png" width="220" />
+    <img alt="Bing leaves images " src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step3-tree-images-dataset/Bing-images.png" width="220" />
 </p>
 
 - [Colab: (Step 3) - Creation of image data set: Bing image download](https://colab.research.google.com/drive/11VHklqR_TRG6QjMEuKsr6ROsesNUqGnP?usp=sharing)
 - [Github: (Step 3) - Creation of image data set: Bing image download](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step3-tree-images-dataset/(Step_3)_Creation_of_image_data_set_Bing_image_download.ipynb)
 
-This intial tree dataset can be found here: [trees-bing-Berlin-test12](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/AI/DL-extension/DL-neural-network/Step3-tree-images-dataset/trees-bing-Berlin-test12)
+This intial tree dataset can be found here: [trees-bing-Berlin-test12](https://github.com/TechLabs-Berlin/st22-active-learn-trees/tree/main/DL-neural-network/Step3-tree-images-dataset/trees-bing-Berlin-test12)
 
 
 ### Step 4: Improving the dataset and model via Active learn using the python library superintend
@@ -100,7 +100,7 @@ future maybe: extend the image dataset to general images of trees and classify f
 ### Step 5: Deciding on and implementing the “best" CNN model
 
 - [Colab: (Step 5) - Deciding on and implementing the “best" CNN model](https://colab.research.google.com/drive/19oaWKU-4LV409M2fAWPgOI_ym8D-TM9p?usp=sharing)  (update Colab), 
-- [Github: (Step 5) - Deciding on and implementing the “best" CNN model](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/AI/DL-extension/DL-neural-network/Step5-improvement-CNN-model/(Step_5)_Deciding_on_and_implementing_the_%E2%80%9Cbest__CNN_model.ipynb)  (update Notebook)
+- [Github: (Step 5) - Deciding on and implementing the “best" CNN model](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step5-improvement-CNN-model/(Step_5)_Deciding_on_and_implementing_the_%E2%80%9Cbest__CNN_model.ipynb)  (update Notebook)
 
 
 We implemented two different types of CNN. one was a per-trained model using [inaturalist](https://tfhub.dev/google/inaturalist/inception_v3/feature_vector/5) , while the other is self-made neural network.
@@ -115,7 +115,7 @@ For the future, any model that was trained with the improved dataset (via active
 
 Our technical setup overview:
 <p align="center">
-    <img alt="Technical statistics" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/Techstats.png" width="600" />
+    <img alt="Technical statistics" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Techstats.png" width="600" />
 </p>
 
 - [Pytorch](https://pytorch.org/)
