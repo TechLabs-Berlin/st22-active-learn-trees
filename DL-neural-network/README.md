@@ -74,6 +74,10 @@ Based on a previous analysis (see step 0) we focus on the most common trees in B
 `berlin_trees = ['ACER leaves', 'AESCULUS leaves','BETULA leaves', 'CARPINUS leaves', 'CORYLUS leaves','CRATAEGUS leaves','FRAXINUS leaves','PLATANUS leaves','POPULUS leaves', 'PRUNUS leaves','QUERCUS leaves','ROBINIA leaves','SORBUS leaves','TILIA leaves', 'ULMUS leaves', 'Fagus leaves']`
 Note: `'FAGUS'` was added as a genus/family present in Austrian leave set.
 
+<p align="center">
+    <img alt="Bing leaves images " src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/Step3-tree-images-dataset/Bing-images.png" width="220" />
+</p>
+
 - [Colab: (Step 3) - Creation of image data set: Bing image download](https://colab.research.google.com/drive/11VHklqR_TRG6QjMEuKsr6ROsesNUqGnP?usp=sharing)
 - [Github: (Step 3) - Creation of image data set: Bing image download](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step3-tree-images-dataset/(Step_3)_Creation_of_image_data_set_Bing_image_download.ipynb)
 
@@ -83,20 +87,20 @@ This intial tree dataset can be found here: [trees-bing-Berlin-test12](https://g
 ### Step 4: Improving the dataset and model via Active learn using the python library superintend
 
 <p align="center">
-    <img alt="Active Learning loop" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/AI/DL-extension/DL-neural-network/Step4-Active-Learning/Activelearn-Researchgate.png" width="220" />
+    <img alt="Active Learning loop" src="https://raw.githubusercontent.com/TechLabs-Berlin/st22-active-learn-trees/main/DL-neural-network/Step4-Active-Learning/Activelearn-Researchgate.png" width="220" />
 </p>
+
 [Active learning loop - Image source](https://www.researchgate.net/figure/The-process-of-active-learning-Ambiguous-uncertain-samples-are-selected-for-oracle-to_fig1_326264220)
 
 1) species in Berlin --> image download via bing focused on LEAVES OF SPECIES
 future maybe: extend the image dataset to general images of trees and classify for large(very old and high circumference) tree vs small tree (young, saplings etc), no tree --> again image download via bing
 
 - [Colab: (Step 4) - Improving the dataset and model via Active learn using the python library superintend](https://colab.research.google.com/drive/1z_KAdBDlJ_TOSmyEqYUveFJwREXI9Q8f?usp=sharing)
-- [Github: (Step 4) - Improving the dataset and model via Active learn using the python library superintend](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/AI/DL-extension/DL-neural-network/Step4-Active-Learning/(Step_4)_Active_Learning_(superintend)_on_tree_leaves_.ipynb)  (update Notebool and link)
-
+- [Github: (Step 4) - Improving the dataset and model via Active learn using the python library superintend](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/main/DL-neural-network/Step4-Active-Learning/(Step_4)_Active_Learning_(superintend)_on_tree_leaves_.ipynb) 
 ### Step 5: Deciding on and implementing the “best" CNN model
 
 - [Colab: (Step 5) - Deciding on and implementing the “best" CNN model](https://colab.research.google.com/drive/19oaWKU-4LV409M2fAWPgOI_ym8D-TM9p?usp=sharing)  (update Colab), 
-- [Github: (Step 5) - Deciding on and implementing the “best" CNN model]()  (upload and update link)
+- [Github: (Step 5) - Deciding on and implementing the “best" CNN model](https://github.com/TechLabs-Berlin/st22-active-learn-trees/blob/AI/DL-extension/DL-neural-network/Step5-improvement-CNN-model/(Step_5)_Deciding_on_and_implementing_the_%E2%80%9Cbest__CNN_model.ipynb)  (update Notebook)
 
 
 We implemented two different types of CNN. one was a per-trained model using [inaturalist](https://tfhub.dev/google/inaturalist/inception_v3/feature_vector/5) , while the other is self-made neural network.
